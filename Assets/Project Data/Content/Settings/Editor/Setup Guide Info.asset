@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c018d8e81ea3d4fab8628d1e58d13a, type: 3}
+  m_Name: Setup Guide Info
+  m_EditorClassIdentifier: 
+  gameName: Squad Shooter
+  documentationURL: https://www.notion.so/wmelongames/Squad-Shooter-1a169bfcedf84bddac47d1df1685b803
+  windowButtons: []
+  folderButtons:
+  - title: Words
+    textureName: icon_folder
+    folderPath: Assets/Project Data/Content/Data/Level System/Worlds
+  fileButtons:
+  - title: Enemies Database
+    textureName: icon_documentation
+    filePath: Assets/Project Data/Content/Data/Enemies/Enemies Database.asset
+  - title: Characters Database
+    textureName: icon_documentation
+    filePath: Assets/Project Data/Content/Data/Characters System/Characters Database.asset
+  - title: Define Manager
+    textureName: icon_modules
+    filePath: Assets\Project Name\Content\Settings\Editor\Define Settings.asset

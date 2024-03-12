@@ -1,0 +1,15 @@
+v1.0.3
+Extended Character Setup tool
+Removed unused fields in Scriptable Objects
+Now minigun and shootgun can shoot close to the enemy
+Explosion decay particle fix
+
+v1.0.2
+Notch offset fix
+
+v1.0.1
+Character update particle fix
+Minigun shooting particle fix
+
+v1.0.0
+Release

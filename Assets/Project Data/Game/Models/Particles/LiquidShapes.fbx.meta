@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: 6bcdb1ca953f1354c82e186e93bdbd6d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Liquid_0
+    100002: Liquid_10
+    100004: Liquid_11
+    100006: Liquid_12
+    100008: Liquid_13
+    100010: Liquid_14
+    100012: Liquid_15
+    100014: Liquid_16
+    100016: Liquid_17
+    100018: Liquid_18
+    100020: Liquid_19
+    100022: Liquid_2
+    100024: Liquid_20
+    100026: Liquid_21
+    100028: Liquid_22
+    100030: Liquid_23
+    100032: Liquid_3
+    100034: Liquid_4
+    100036: Liquid_5
+    100038: Liquid_6
+    100040: Liquid_7
+    100042: Liquid_8
+    100044: Liquid_9
+    100046: //RootNode
+    400000: Liquid_0
+    400002: Liquid_10
+    400004: Liquid_11
+    400006: Liquid_12
+    400008: Liquid_13
+    400010: Liquid_14
+    400012: Liquid_15
+    400014: Liquid_16
+    400016: Liquid_17
+    400018: Liquid_18
+    400020: Liquid_19
+    400022: Liquid_2
+    400024: Liquid_20
+    400026: Liquid_21
+    400028: Liquid_22
+    400030: Liquid_23
+    400032: Liquid_3
+    400034: Liquid_4
+    400036: Liquid_5
+    400038: Liquid_6
+    400040: Liquid_7
+    400042: Liquid_8
+    400044: Liquid_9
+    400046: //RootNode
+    2100000: lambert1
+    2300000: Liquid_0
+    2300002: Liquid_10
+    2300004: Liquid_11
+    2300006: Liquid_12
+    2300008: Liquid_13
+    2300010: Liquid_14
+    2300012: Liquid_15
+    2300014: Liquid_16
+    2300016: Liquid_17
+    2300018: Liquid_18
+    2300020: Liquid_19
+    2300022: Liquid_2
+    2300024: Liquid_20
+    2300026: Liquid_21
+    2300028: Liquid_22
+    2300030: Liquid_23
+    2300032: Liquid_3
+    2300034: Liquid_4
+    2300036: Liquid_5
+    2300038: Liquid_6
+    2300040: Liquid_7
+    2300042: Liquid_8
+    2300044: Liquid_9
+    3300000: Liquid_0
+    3300002: Liquid_10
+    3300004: Liquid_11
+    3300006: Liquid_12
+    3300008: Liquid_13
+    3300010: Liquid_14
+    3300012: Liquid_15
+    3300014: Liquid_16
+    3300016: Liquid_17
+    3300018: Liquid_18
+    3300020: Liquid_19
+    3300022: Liquid_2
+    3300024: Liquid_20
+    3300026: Liquid_21
+    3300028: Liquid_22
+    3300030: Liquid_23
+    3300032: Liquid_3
+    3300034: Liquid_4
+    3300036: Liquid_5
+    3300038: Liquid_6
+    3300040: Liquid_7
+    3300042: Liquid_8
+    3300044: Liquid_9
+    4300000: Liquid_16
+    4300002: Liquid_15
+    4300004: Liquid_14
+    4300006: Liquid_18
+    4300008: Liquid_19
+    4300010: Liquid_17
+    4300012: Liquid_13
+    4300014: Liquid_12
+    4300016: Liquid_21
+    4300018: Liquid_20
+    4300020: Liquid_11
+    4300022: Liquid_10
+    4300024: Liquid_9
+    4300026: Liquid_8
+    4300028: Liquid_7
+    4300030: Liquid_6
+    4300032: Liquid_5
+    4300034: Liquid_4
+    4300036: Liquid_3
+    4300038: Liquid_2
+    4300040: Liquid_0
+    4300042: Liquid_22
+    4300044: Liquid_23
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

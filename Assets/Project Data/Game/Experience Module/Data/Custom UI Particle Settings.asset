@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e16e8d5352b89545ae40ff9c4c3191c, type: 3}
+  m_Name: Custom UI Particle Settings
+  m_EditorClassIdentifier: 
+  uiParticlePrefab: {fileID: 1419447042141539857, guid: cc02bb168394f9249a6377b5a6a5c8f0,
+    type: 3}
+  sprite: {fileID: 21300000, guid: 7ffb2c8163ce4b94ea01726ddf4305ec, type: 3}
+  playOnAwake: 0
+  startDelay: 0
+  startSize:
+    firstValue: 0
+    secondValue: 0
+  startDuoColor:
+    firstValue:
+      serializedVersion: 2
+      rgba: 0
+    secondValue:
+      serializedVersion: 2
+      rgba: 0
+  gravityModifier: 0
+  shape: 0
+  circleRadius: 0
+  rectSize: {x: 0, y: 0}
+  spherizeDirection: 0
+  lifetime:
+    firstValue: 0.5
+    secondValue: 0.3
+  emissionPerSecond: 20
+  angle:
+    firstValue: -30
+    secondValue: 30
+  speed3d: 0
+  speed:
+    firstValue: 150
+    secondValue: 250
+  speed3dValues:
+    firstValue: {x: 0, y: 0, z: 0}
+    secondValue: {x: 0, y: 0, z: 0}
+  dumping:
+    firstValue: 0
+    secondValue: 0
+  scaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 110.97494
+      outSlope: 110.97494
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.084812626
+    - serializedVersion: 3
+      time: 0.5
+      value: 30
+      inSlope: -0.63694763
+      outSlope: -0.63694763
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -187.64871
+      outSlope: -187.64871
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.07297826
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  rotationOverLifetime: 0
+  angularSpeed:
+    firstValue: 0
+    secondValue: 0
+  colorOverLifetime: 0
+  colorOverLifetimeGradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2

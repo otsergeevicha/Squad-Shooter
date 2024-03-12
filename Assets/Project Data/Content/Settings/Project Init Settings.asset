@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7288266849447036133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e27433fc73d0e094491cb89c195d0cf8, type: 3}
+  m_Name: Watermelon.AudioControllerInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Audio Controller
+  audioSettings: {fileID: 11400000, guid: 503b1ff9b67b4c644b15ce25918d2d63, type: 2}
+  playRandomMusic: 0
+--- !u!114 &-5456379881816359578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e8aee3fa033774784c3dd89d1fc896, type: 3}
+  m_Name: Watermelon.TweenInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Tween
+  easingSettings: {fileID: 11400000, guid: 53a2c1fe2428e5c42aaa6bf429586035, type: 2}
+  tweensUpdateCount: 150
+  tweensFixedUpdateCount: 10
+  tweensLateUpdateCount: 10
+  enableSystemLogs: 0
+--- !u!114 &-1360946416533130198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f517638b73f01c34780e6f4e044107a3, type: 3}
+  m_Name: Watermelon.AdsManagerInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Ads Manager
+  settings: {fileID: 11400000, guid: f0858c0f24b3ff5489e1fefb94c661e5, type: 2}
+  dummyCanvasPrefab: {fileID: 985655532585203946, guid: a7af08efc5cd16c4db955b7f65f00dfc,
+    type: 3}
+  gdprPrefab: {fileID: 2665059414450368139, guid: 25b05165b3e164d41a5e0f7d29a77b0a,
+    type: 3}
+  loadAdOnStart: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a0258cb7d17964493174ceaf8d2867, type: 3}
+  m_Name: Project Init Settings
+  m_EditorClassIdentifier: 
+  initModules:
+  - {fileID: 7847036401399946431}
+  - {fileID: -5456379881816359578}
+  - {fileID: -1360946416533130198}
+  - {fileID: 5256770559039385360}
+  - {fileID: -7288266849447036133}
+  - {fileID: 2145748829431366697}
+--- !u!114 &2145748829431366697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34f27d59b0f7fd64bbdece140f4e0eae, type: 3}
+  m_Name: Watermelon.FloatingMessageInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Floating Message
+  canvas: {fileID: 8061296051001136106, guid: 70c84c05a93579246ac20f112340805d, type: 3}
+--- !u!114 &5256770559039385360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8e4e34b37285094ea49b9c1301c78e6, type: 3}
+  m_Name: Watermelon.IAPManagerInitModule
+  m_EditorClassIdentifier: 
+  moduleName: IAP Manager
+  settings: {fileID: 11400000, guid: f9e742c6644852f4397ba85c9f7efefe, type: 2}
+  canvas: {fileID: 4428939727153499309, guid: 9ccb3bd803809cc449b332921a7edf6f, type: 3}
+--- !u!114 &7847036401399946431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c984de218fd184941b3d56bc8cc7cd44, type: 3}
+  m_Name: Watermelon.PrefsInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Prefs Settings
+  prefsSettings: {fileID: 11400000, guid: 7d7a9bd91a6c8b94592743e69bf7b01f, type: 2}

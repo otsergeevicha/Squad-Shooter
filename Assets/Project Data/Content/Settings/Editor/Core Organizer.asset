@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2edfaf6db3b0474b8d7bec745b54b1f, type: 3}
+  m_Name: Core Organizer
+  m_EditorClassIdentifier: 
+  coreSettings:
+  - name: Creatives
+    directory: Creatives
+    status: Removed
+    include: 0
+  - name: Tools/Clean Up Tool
+    directory: Development Tools/Clean Up Tool
+    status: Exists
+    include: 1
+  - name: Tools/Methods Executor
+    directory: Development Tools/Methods Executor
+    status: Exists
+    include: 1
+  - name: Tools/Smart Screenshot Taker
+    directory: Development Tools/Smart Screenshot Taker
+    status: Exists
+    include: 1
+  - name: Level Editors
+    directory: Level Editors
+    status: Removed
+    include: 0
+  - name: Default Modules/Camera Controller
+    directory: Project Data/Watermelon Core/Core/Default Modules/Camera Controller
+    status: Removed
+    include: 0
+  - name: Extra Modules/Floating Text
+    directory: Project Data/Watermelon Core/Extra Components/Modules/Floating Text
+    status: Exists
+    include: 1
+  - name: Extra Mpdules/IAP Module
+    directory: Project Data/Watermelon Core/Extra Components/Modules/IAP Module
+    status: Exists
+    include: 1
+  - name: Extra Modules/Joystick
+    directory: Project Data/Watermelon Core/Extra Components/Modules/Joystick
+    status: Exists
+    include: 1
+  - name: Extra Modules/Lives System
+    directory: Project Data/Watermelon Core/Extra Components/Modules/Lives System
+    status: Removed
+    include: 0
+  - name: Extra Modules/Outline
+    directory: Project Data/Watermelon Core/Extra Components/Modules/Outline
+    status: Exists
+    include: 1
+  - name: Extra Modules/Particle System
+    directory: Project Data/Watermelon Core/Extra Components/Modules/Particle System
+    status: Exists
+    include: 1
+  - name: Extra Modules/Settings Panel
+    directory: Project Data/Watermelon Core/Extra Components/Modules/Settings Panel
+    status: Exists
+    include: 1
+  - name: Extra Modules/SimpleOutline
+    directory: Project Data/Watermelon Core/Extra Components/Modules/SimpleOutline
+    status: Removed
+    include: 0
+  - name: Extra Modules/Store
+    directory: Project Data/Watermelon Core/Extra Components/Modules/Store
+    status: Removed
+    include: 0
+  - name: Extra Modules/Upgrades
+    directory: Project Data/Watermelon Core/Extra Components/Modules/Upgrades
+    status: Exists
+    include: 1
+  - name: Extra Modules/Vibration
+    directory: Project Data/Watermelon Core/Extra Components/Modules/Vibration
+    status: Exists
+    include: 1

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8634c5cf5896bb84ca6474552cf85648, type: 3}
+  m_Name: Audio Settings
+  m_EditorClassIdentifier: 
+  music:
+    menuMusic: {fileID: 8300000, guid: 0406778e02300e846bd97581283dab89, type: 3}
+    gameMusic: {fileID: 8300000, guid: e77a48695d4dd1f4c9f10344ea278c8d, type: 3}
+  sounds:
+    characterHit:
+    - {fileID: 8300000, guid: b74c99280203b9a49ab1d263d05b2497, type: 3}
+    shotMinigun: {fileID: 8300000, guid: 3de37d8faa0161c4bb61ffb7c161d157, type: 3}
+    shotShotgun: {fileID: 8300000, guid: 6efbce6a000cab54ca459fffb9b64421, type: 3}
+    shotLavagun: {fileID: 8300000, guid: 64d60c4bc628bf246907b90d7d919ec5, type: 3}
+    shotTesla: {fileID: 8300000, guid: e86fa019a4eec9b40a24685a255b6fe3, type: 3}
+    enemyScreems:
+    - {fileID: 8300000, guid: 2b8cb826f9e2f1a4fb691ab3c2f66ea4, type: 3}
+    - {fileID: 8300000, guid: b46c34b8fb06971498878308005a6904, type: 3}
+    enemyMeleeHit: {fileID: 8300000, guid: bdd371d1f2ff67c4db693fb951dd303e, type: 3}
+    enemyShot: {fileID: 8300000, guid: 8cb24fcf46a75fe4c96d935a263db03b, type: 3}
+    enemySniperShoot: {fileID: 8300000, guid: a61737eb468a63b42a3fbbd468e87391, type: 3}
+    jumpLanding: {fileID: 8300000, guid: b946bbfb03927b047950fa93dfa4f998, type: 3}
+    bossScream: {fileID: 8300000, guid: a116590a434b48341919171b98ba5e09, type: 3}
+    punch1: {fileID: 8300000, guid: 5412c6c3e8f635742ad033f2fa6b690d, type: 3}
+    shoot2: {fileID: 8300000, guid: 6efbce6a000cab54ca459fffb9b64421, type: 3}
+    explode: {fileID: 8300000, guid: bbc99fbe4598f3c478326d0c138bf449, type: 3}
+    door: {fileID: 8300000, guid: 6089b91cc04ce6946ac324d95093d910, type: 3}
+    complete: {fileID: 8300000, guid: cd3e1273a2e6a274fa1db8363c902722, type: 3}
+    chestOpen: {fileID: 8300000, guid: 943d3072c5825754eb611154ae330a7a, type: 3}
+    coinAppear: {fileID: 8300000, guid: c12dd3c161877364eae18467efae32c6, type: 3}
+    coinPickUp: {fileID: 8300000, guid: 96dc86f212894af42ad3daf4e81f1bfc, type: 3}
+    cardPickUp: {fileID: 8300000, guid: 9c115f3f16a4ec84980bd46d1b56ed09, type: 3}
+    buttonSound: {fileID: 8300000, guid: a6a601509af5566469c1d15e5a9e26bc, type: 3}
+    upgrade: {fileID: 8300000, guid: ae3eede23c57ffe42909de53a296b20a, type: 3}
+  vibrations:
+    shortVibration: 20
+    longVibration: 50

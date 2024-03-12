@@ -1,0 +1,495 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd96672f8cbd27a46b31817bb19de697, type: 3}
+  m_Name: Game Settings
+  m_EditorClassIdentifier: 
+  levelsDatabase: {fileID: 11400000, guid: ebf0575738af97241b29945840a565db, type: 2}
+  playerPrefab: {fileID: 4402184686770468089, guid: 0a2969074fd41754aa55fcad338c7e27,
+    type: 3}
+  navMeshData: {fileID: 23800000, guid: 6da5cd43ce95718498e92ebcd8685fea, type: 2}
+  backWallCollider: {fileID: 5784466898372011177, guid: f89e53484f467e948b370fd2bc196bbc,
+    type: 3}
+  worldPresets:
+  - type: 1
+    obstacles:
+    - prefab: {fileID: 2079970636940507925, guid: fb5579bceec7ee5428b2e8c167b9b847,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 8850487571568800178, guid: 7a69509b476ab22478cd4ba9ef6bc3bb,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 7040122622025098703, guid: 070146f8b28078646977daef3140081b,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 4886506465428382982, guid: 1e9ce078f9001a549944a46bc8af9d5a,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 3275193047788003956, guid: e8d65ba6b5f17f64481e32c58f847871,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 7432301085187984879, guid: f88785f05b90db14b97f9469c93482a2,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 2295481268442410382, guid: 9d7611965f951c04ba08a165e070e3d1,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 2334595651981715048, guid: be29817e2e8e5aa4297d87b307d300fe,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 2770214111528181336, guid: a640d04ce160bf14590afc74ab15543d,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 6106297832844602657, guid: fb1570ad30cb5e84e94bcb310b352256,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 4392632297128704160, guid: 3510dd1404ee6ff4a87185605f4cc9b9,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 7903907526811034716, guid: c280c24d32e8e564a8419136d09cc1de,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 8870180346067256064, guid: 75e8e36f67ef339488ba304b1ff20d40,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 5129515741257172432, guid: a1aa0183360e6944e84bd923946fcb1d,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 2965313910403764852, guid: cdfab1fbf713085438caf90d4ca05c87,
+        type: 3}
+      recommendedCount: 0
+    environments:
+    - prefab: {fileID: 7533399733290443937, guid: 053d7e63a392eab458df645f461892d3,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 7533399733290443937, guid: 193ec8ec1b4a80d4da83d6145407e054,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 5813789476795365582, guid: a0715834e9cae384494378d39a9173f6,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 5813789476795365582, guid: 2b313acbeb9262b47afca7c1fd4d3123,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 5813789476795365582, guid: 8f3a7f193919d7f4a8a47560850ceadd,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 5813789476795365582, guid: f012c7ff4b877ef458283aeb698aac5c,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 5813789476795365582, guid: 96910faaf65ee9040bdab88528e759cd,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 5813789476795365582, guid: 4369fc4b37fc0384184008c4eb753241,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 5595796064844234426, guid: 49948c4498e922f4c8f17559f42f7fec,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 2527568467874977457, guid: 482484fc5b26df549975a697fc2084fb,
+        type: 3}
+      recommendedCount: 0
+    pedestalPrefab: {fileID: 8216573719630268239, guid: 1e70dc176f66adf48bf296751231ea97,
+      type: 3}
+  - type: 2
+    obstacles:
+    - prefab: {fileID: 2079970636940507925, guid: 18f743c5027f89d45966d8f2e32ed450,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 8850487571568800178, guid: 6371d31c90e03874abf9ebc882177d8e,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 7040122622025098703, guid: e7f4aba2d7df2774c8179f28553b46ba,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 4886506465428382982, guid: 8a78f09f7b44b0244b4c97867b10b2e8,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 3275193047788003956, guid: 7722da36603c7b74492800c1f97eebe2,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 7432301085187984879, guid: aef72d73ba841854a858237bec13b564,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 2295481268442410382, guid: 8b5613438993fb94bbebb16c9b6a0992,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 2334595651981715048, guid: 027c1d613e1e7004babef39d1be0cdf5,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 2770214111528181336, guid: 39fce56e7f12c5049a5adbc264d008aa,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 6106297832844602657, guid: b51a2a8d2e9a3d640ba73c1ef98201f5,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 4392632297128704160, guid: 96058ebc31e8a2441b92fd2985ebd182,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 7903907526811034716, guid: 817aab7a4963540448775131d84cc59d,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 8870180346067256064, guid: 72fbeee29d08e354695394fed5e92c73,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 5129515741257172432, guid: c5683e894e1201645bd43fba7e388a63,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 2965313910403764852, guid: 415a23aecf1dc094eaa7fa26ddff7209,
+        type: 3}
+      recommendedCount: 0
+    environments:
+    - prefab: {fileID: 7533399733290443937, guid: 32b7aa5a3bea59d468b23446c5ae8c93,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 7533399733290443937, guid: 382d204048d1a074ebbaa551e8def049,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 5813789476795365582, guid: 0619cfd0b72ca22449d0c2ae8d7db272,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 5813789476795365582, guid: 819446a5a6b130941903162e276fc921,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 5813789476795365582, guid: bf3b09bbfa784bb45b085abf7b3c15b1,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 5813789476795365582, guid: 2c774488b2cef3144a6f9965aaeba258,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 5813789476795365582, guid: ec31dcbe9b2897342be0349d6b5493bf,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 5813789476795365582, guid: 88b1144be99fcea419b3e1bb711c43f2,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 5595796064844234426, guid: ebf472ff324fe1542bee6ce9dd99ddf9,
+        type: 3}
+      recommendedCount: 0
+    - prefab: {fileID: 2527568467874977457, guid: 285dcfc5621618c4fb143a78987cef84,
+        type: 3}
+      recommendedCount: 0
+    pedestalPrefab: {fileID: 8216573719630268239, guid: 1e70dc176f66adf48bf296751231ea97,
+      type: 3}
+  exitPointPrefab: {fileID: 5884411178410358801, guid: 1a63df826793f4046b07b67c093c2e77,
+    type: 3}
+  roomEnvPresets:
+  - type: 0
+    environmentEntities:
+    - EnvironmentType: 0
+      Position: {x: 25, y: 0, z: -25}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: -25, y: 0, z: -25}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: -25, y: 0, z: 25}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: 25, y: 0, z: 25}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: -25, y: 0, z: -75}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: 25, y: 0, z: -75}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: -25, y: 0, z: 75}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: 25, y: 0, z: 75}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 6
+      Position: {x: -50, y: 0, z: 100}
+      Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+    - EnvironmentType: 6
+      Position: {x: 50, y: 0, z: 100}
+      Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+    - EnvironmentType: 6
+      Position: {x: -50, y: 0, z: -100}
+      Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+    - EnvironmentType: 6
+      Position: {x: 50, y: 0, z: -100}
+      Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+    - EnvironmentType: 2
+      Position: {x: -50, y: 0, z: -25}
+      Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+    - EnvironmentType: 4
+      Position: {x: -50, y: 0, z: 25}
+      Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+    - EnvironmentType: 2
+      Position: {x: -50, y: 0, z: -75}
+      Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+    - EnvironmentType: 3
+      Position: {x: -50, y: 0, z: 75}
+      Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+    - EnvironmentType: 5
+      Position: {x: 50, y: 0, z: -25}
+      Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+    - EnvironmentType: 2
+      Position: {x: 50, y: 0, z: 25}
+      Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+    - EnvironmentType: 3
+      Position: {x: 50, y: 0, z: -75}
+      Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+    - EnvironmentType: 2
+      Position: {x: 50, y: 0, z: 75}
+      Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+    - EnvironmentType: 2
+      Position: {x: -25, y: 0, z: -100}
+      Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+    - EnvironmentType: 2
+      Position: {x: 25, y: 0, z: -100}
+      Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+    - EnvironmentType: 8
+      Position: {x: -37.5, y: 0, z: 100}
+      Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+    - EnvironmentType: 8
+      Position: {x: 37.5, y: 0, z: 100}
+      Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+    - EnvironmentType: 7
+      Position: {x: 0, y: 0, z: 100}
+      Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+    spawnPos: {x: 0, y: 0, z: -75}
+    exitPointPos: {x: 0, y: 0, z: 100}
+  - type: 1
+    environmentEntities:
+    - EnvironmentType: 0
+      Position: {x: 12.5, y: 0, z: -25}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: -37.5, y: 0, z: -25}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: -37.5, y: 0, z: 25}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: 12.5, y: 0, z: 25}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: -37.5, y: 0, z: -75}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: 12.5, y: 0, z: -75}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: -37.5, y: 0, z: 75}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: 12.5, y: 0, z: 75}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 6
+      Position: {x: -62.5, y: 0, z: 100}
+      Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+    - EnvironmentType: 6
+      Position: {x: 62.5, y: 0, z: 100}
+      Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+    - EnvironmentType: 6
+      Position: {x: -62.5, y: 0, z: -100}
+      Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+    - EnvironmentType: 6
+      Position: {x: 62.5, y: 0, z: -100}
+      Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+    - EnvironmentType: 2
+      Position: {x: -62.5, y: 0, z: -25}
+      Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+    - EnvironmentType: 4
+      Position: {x: -62.5, y: 0, z: 25}
+      Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+    - EnvironmentType: 2
+      Position: {x: -62.5, y: 0, z: -75}
+      Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+    - EnvironmentType: 3
+      Position: {x: -62.5, y: 0, z: 75}
+      Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+    - EnvironmentType: 5
+      Position: {x: 62.5, y: 0, z: -25}
+      Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+    - EnvironmentType: 2
+      Position: {x: 62.5, y: 0, z: 25}
+      Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+    - EnvironmentType: 3
+      Position: {x: 62.5, y: 0, z: -75}
+      Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+    - EnvironmentType: 2
+      Position: {x: 62.5, y: 0, z: 75}
+      Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+    - EnvironmentType: 2
+      Position: {x: -37.5, y: 0, z: -100}
+      Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+    - EnvironmentType: 2
+      Position: {x: 12.5, y: 0, z: -100}
+      Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+    - EnvironmentType: 8
+      Position: {x: -37.5, y: 0, z: 100}
+      Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+    - EnvironmentType: 8
+      Position: {x: 37.5, y: 0, z: 100}
+      Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+    - EnvironmentType: 9
+      Position: {x: -56.25, y: 0, z: 100}
+      Rotation: {x: 0, y: -1, z: 0, w: 0}
+    - EnvironmentType: 9
+      Position: {x: 56.25, y: 0, z: 100}
+      Rotation: {x: 0, y: -1, z: 0, w: 0}
+    - EnvironmentType: 8
+      Position: {x: 50, y: 0, z: -100}
+      Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+    - EnvironmentType: 7
+      Position: {x: 0, y: 0, z: 100}
+      Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+    - EnvironmentType: 1
+      Position: {x: 62.5, y: 0, z: -75}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 1
+      Position: {x: 62.5, y: 0, z: -25}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 1
+      Position: {x: 62.5, y: 0, z: 25}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 1
+      Position: {x: 62.5, y: 0, z: 75}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    spawnPos: {x: 0, y: 0, z: -75}
+    exitPointPos: {x: 0, y: 0, z: 100}
+  - type: 2
+    environmentEntities:
+    - EnvironmentType: 0
+      Position: {x: 12.5, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: -37.5, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: -37.5, y: 0, z: 50}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: 12.5, y: 0, z: 50}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: -37.5, y: 0, z: -50}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: 12.5, y: 0, z: -50}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: -37.5, y: 0, z: 100}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: 12.5, y: 0, z: 100}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: -37.5, y: 0, z: -100}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 0
+      Position: {x: 12.5, y: 0, z: -100}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 6
+      Position: {x: -62.5, y: 0, z: 125}
+      Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+    - EnvironmentType: 6
+      Position: {x: 62.5, y: 0, z: 125}
+      Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+    - EnvironmentType: 6
+      Position: {x: -62.5, y: 0, z: -125}
+      Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+    - EnvironmentType: 6
+      Position: {x: 62.5, y: 0, z: -125}
+      Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+    - EnvironmentType: 2
+      Position: {x: -62.5, y: 0, z: 0}
+      Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+    - EnvironmentType: 4
+      Position: {x: -62.5, y: 0, z: 50}
+      Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+    - EnvironmentType: 2
+      Position: {x: -62.5, y: 0, z: -50}
+      Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+    - EnvironmentType: 2
+      Position: {x: -62.5, y: 0, z: -100}
+      Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+    - EnvironmentType: 3
+      Position: {x: -62.5, y: 0, z: 100}
+      Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+    - EnvironmentType: 5
+      Position: {x: 62.5, y: 0, z: 0}
+      Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+    - EnvironmentType: 2
+      Position: {x: 62.5, y: 0, z: 50}
+      Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+    - EnvironmentType: 3
+      Position: {x: 62.5, y: 0, z: -50}
+      Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+    - EnvironmentType: 4
+      Position: {x: 62.5, y: 0, z: -100}
+      Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+    - EnvironmentType: 2
+      Position: {x: 62.5, y: 0, z: 100}
+      Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+    - EnvironmentType: 2
+      Position: {x: -37.5, y: 0, z: -125}
+      Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+    - EnvironmentType: 2
+      Position: {x: 12.5, y: 0, z: -125}
+      Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+    - EnvironmentType: 1
+      Position: {x: 62.5, y: 0, z: -100}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 8
+      Position: {x: -37.5, y: 0, z: 125}
+      Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+    - EnvironmentType: 8
+      Position: {x: 37.5, y: 0, z: 125}
+      Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+    - EnvironmentType: 9
+      Position: {x: -56.25, y: 0, z: 125}
+      Rotation: {x: 0, y: -1, z: 0, w: 0}
+    - EnvironmentType: 9
+      Position: {x: 56.25, y: 0, z: 125}
+      Rotation: {x: 0, y: -1, z: 0, w: 0}
+    - EnvironmentType: 8
+      Position: {x: 50, y: 0, z: -125}
+      Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+    - EnvironmentType: 7
+      Position: {x: 0, y: 0, z: 125}
+      Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+    - EnvironmentType: 1
+      Position: {x: 62.5, y: 0, z: -50}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 1
+      Position: {x: 62.5, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 1
+      Position: {x: 62.5, y: 0, z: 50}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - EnvironmentType: 1
+      Position: {x: 62.5, y: 0, z: 100}
+      Rotation: {x: 0, y: 0, z: 0, w: 1}
+    spawnPos: {x: 0, y: 0, z: -100}
+    exitPointPos: {x: 0, y: 0, z: 125}
+  chestData:
+  - prefab: {fileID: 8395617477764176360, guid: 699f9c9599f44d343a2e49b7c5a8ad77,
+      type: 3}
+    type: 0
+  - prefab: {fileID: 8395617477764176360, guid: be48155f0ba8301408fd8780be9837db,
+      type: 3}
+    type: 1
+  pedestalPosition: {x: 300, y: 300, z: 300}
+  dropSettings: {fileID: 11400000, guid: f1de6312afd27b34bb09b3027a089a65, type: 2}
+  levelTypes:
+  - levelType: 0
+    previewObject: {fileID: 9218843257341585668, guid: 69c68ad4aac6e9f4fad0c56c81541365,
+      type: 3}
+  - levelType: 1
+    previewObject: {fileID: 8998117227198249967, guid: 1ae4082f8cb03244ea6d6eb81973e9b4,
+      type: 3}
+  defaultWorldSprite: {fileID: 21300000, guid: d5409f73f9a9eeb49836e183f8cfd36e, type: 3}

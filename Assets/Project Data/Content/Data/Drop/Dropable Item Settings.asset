@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e02c3ff6b1e97624d80bf06e2585b56e, type: 3}
+  m_Name: Dropable Item Settings
+  m_EditorClassIdentifier: 
+  customDropItems:
+  - dropableItemType: 2
+    prefab: {fileID: 7619653228899683269, guid: 010f637b70fa6bf449444dc7d8f150de,
+      type: 3}
+  dropAnimations:
+  - fallStyle: 0
+    fallAnimationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    fallYAnimationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: -3.1431732
+        outSlope: -3.1431732
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.17418605
+      - serializedVersion: 3
+        time: 0.32399616
+        value: -0.8634048
+        inSlope: -1.8754041
+        outSlope: -1.8754041
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.22023876
+        outWeight: 0.13699946
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 7.2995186
+        outSlope: 7.2995186
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.047258783
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    fallTime: 0.5
+    offsetY: 7
+    radius: 5
+  - fallStyle: 1
+    fallAnimationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    fallYAnimationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: -3.1431732
+        outSlope: -3.1431732
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.17418605
+      - serializedVersion: 3
+        time: 0.32399616
+        value: -0.8634048
+        inSlope: -1.8754041
+        outSlope: -1.8754041
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.22023876
+        outWeight: 0.13699946
+      - serializedVersion: 3
+        time: 0.71699226
+        value: 0.99124956
+        inSlope: 8.72106
+        outSlope: -7.937109
+        tangentMode: 1
+        weightedMode: 0
+        inWeight: 0.04905029
+        outWeight: 0.15650119
+      - serializedVersion: 3
+        time: 0.88018346
+        value: 0.44695273
+        inSlope: -0.1484114
+        outSlope: -0.1484114
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 1
+        outWeight: 0.631044
+      - serializedVersion: 3
+        time: 0.99853516
+        value: 1
+        inSlope: 12.369935
+        outSlope: 12.369935
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.14438593
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    fallTime: 0.5
+    offsetY: 9
+    radius: 6

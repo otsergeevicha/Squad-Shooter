@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ddb41bf72d53a48a6bdc593d706f94, type: 3}
+  m_Name: Ads Settings
+  m_EditorClassIdentifier: 
+  bannerType: 0
+  interstitialType: 0
+  rewardedVideoType: 0
+  adMobContainer:
+    androidBannerID: ca-app-pub-3940256099942544/6300978111
+    iOSBannerID: ca-app-pub-3940256099942544/2934735716
+    androidInterstitialID: ca-app-pub-3940256099942544/1033173712
+    iOSInterstitialID: ca-app-pub-3940256099942544/4411468910
+    androidRewardedVideoID: ca-app-pub-3940256099942544/5224354917
+    iOSRewardedVideoID: ca-app-pub-3940256099942544/1712485313
+    bannerType: 0
+    bannerPosition: 0
+    androidAppId: 
+    iosAppId: 
+  unityAdsContainer:
+    androidAppID: 
+    iOSAppID: 
+    androidBannerID: banner
+    iOSBannerID: banner
+    androidInterstitialID: video
+    iOSInterstitialID: video
+    androidRewardedVideoID: rewardedVideo
+    iOSRewardedVideoID: rewardedVideo
+    bannerPosition: 4
+  dummyContainer:
+    bannerPosition: 0
+  testMode: 1
+  systemLogs: 1
+  insterstitialFirstDelay: 40
+  interstitialShowingDelay: 30
+  isGDPREnabled: 0
+  isIDFAEnabled: 0
+  trackingDescription: Your data will be used to deliver personalized ads to you.
+  privacyLink: https://mywebsite.com/privacy
+  termsOfUseLink: https://mywebsite.com/terms

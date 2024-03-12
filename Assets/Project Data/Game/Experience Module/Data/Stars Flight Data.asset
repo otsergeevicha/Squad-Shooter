@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2df116fa874330941858a384eb2be496, type: 3}
+  m_Name: Stars Flight Data
+  m_EditorClassIdentifier: 
+  pathCurve1:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  starsScale1:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 4.30927
+      outSlope: 4.30927
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.039970595
+    - serializedVersion: 3
+      time: 0.7
+      value: 1
+      inSlope: 0.007478708
+      outSlope: 0.007478708
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.99801517
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  firstStageDistance:
+    firstValue: 200
+    secondValue: 300
+  firstStageDuration:
+    firstValue: 0.3
+    secondValue: 0.5
+  pathCurve2:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  starsScale2:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0.0023908352
+      outSlope: 0.0023908352
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.9990138
+    - serializedVersion: 3
+      time: 0.6
+      value: 1
+      inSlope: 0.0039808946
+      outSlope: 0.0039808946
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -5.334114
+      outSlope: -5.334114
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.06903351
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  key1:
+    firstValue: 400
+    secondValue: 500
+  key2:
+    firstValue: {x: -300, y: 100, z: 0}
+    secondValue: {x: 300, y: 200, z: 0}
+  secondStageDuration:
+    firstValue: 0.8
+    secondValue: 1.2

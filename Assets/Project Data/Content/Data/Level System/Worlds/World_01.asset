@@ -1,0 +1,4762 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 574ed70e98229ac4a989ccda52c881c8, type: 3}
+  m_Name: World_01
+  m_EditorClassIdentifier: 
+  previewSprite: {fileID: 21300000, guid: d5409f73f9a9eeb49836e183f8cfd36e, type: 3}
+  obstaclesPresetType: 1
+  levels:
+  - type: 0
+    rooms:
+    - spawnPoint: {x: 0, y: 0, z: -30}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 0
+        Position: {x: 0, y: 0, z: 19.6}
+        Rotation: {x: 0, y: 1, z: 0, w: 0}
+        IsElite: 0
+        PathPoints: []
+      obstacleEntities:
+      - ObstaclesType: 0
+        Position: {x: -37.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 37.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -37.5, y: 0, z: 37.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 37.5, y: 0, z: 37.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      environmentEntities:
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: 100}
+        Rotation: {x: -0, y: 0.70710576, z: -0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: 100}
+        Rotation: {x: -0, y: 1, z: -0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: -100}
+        Rotation: {x: -0, y: -0.00000028312203, z: -0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: -0, y: 0.7071099, z: -0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -25}
+        Rotation: {x: -0, y: 0.70710576, z: -0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -50, y: 0, z: 25}
+        Rotation: {x: -0, y: 0.70710576, z: -0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -75}
+        Rotation: {x: -0, y: 0.70710576, z: -0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -50, y: 0, z: 75}
+        Rotation: {x: -0, y: 0.70710576, z: -0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 50, y: 0, z: -25}
+        Rotation: {x: -0, y: -0.7071058, z: -0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 25}
+        Rotation: {x: -0, y: -0.7071058, z: -0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 50, y: 0, z: -75}
+        Rotation: {x: -0, y: -0.7071058, z: -0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 75}
+        Rotation: {x: -0, y: -0.7071058, z: -0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -25, y: 0, z: -100}
+        Rotation: {x: -0, y: -0.000000014901161, z: -0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 25, y: 0, z: -100}
+        Rotation: {x: -0, y: -0.000000014901161, z: -0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: -0, y: 1, z: -0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: -0, y: 1, z: -0, w: 0.0000029504295}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: -0, y: 1, z: -0, w: 0.0000029504295}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -25}
+        Rotation: {x: -0, y: -0, z: -0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -25}
+        Rotation: {x: -0, y: -0, z: -0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 25}
+        Rotation: {x: -0, y: -0, z: -0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 25}
+        Rotation: {x: -0, y: -0, z: -0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -75}
+        Rotation: {x: -0, y: -0, z: -0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -75}
+        Rotation: {x: -0, y: -0, z: -0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 75}
+        Rotation: {x: -0, y: -0, z: -0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 75}
+        Rotation: {x: -0, y: -0, z: -0, w: 1}
+      chestEntities: []
+    xpAmount: 100
+    requiredUpg: 0
+    enemiesLevel: 1
+    hasCharacterSuggestion: 0
+    healSpawnPercent: 0.5
+    dropData:
+    - dropType: 0
+      currencyType: 0
+      cardType: 3
+      amount: 90
+    specialBehaviours:
+    - {fileID: 11400000, guid: 81fad66ce9ed64d488606cf6df97a837, type: 2}
+  - type: 0
+    rooms:
+    - spawnPoint: {x: 0, y: 0, z: -75}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 0
+        Position: {x: 0, y: 0, z: 45}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 1
+        Position: {x: 0, y: 0, z: 82.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 27, y: 0, z: 85.5}
+        - {x: -26.8, y: 0, z: 85.5}
+      - EnemyType: 1
+        Position: {x: 0, y: 0, z: 0}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 22.7, y: 0, z: 9.4}
+        - {x: 0.4, y: 0, z: -8.5}
+        - {x: -20.3, y: 0, z: 10}
+      obstacleEntities:
+      - ObstaclesType: 0
+        Position: {x: -30, y: 0, z: 57.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 30, y: 0, z: 57.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 9
+        Position: {x: 0, y: 0, z: 27.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 8
+        Position: {x: 32.5, y: 0, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 8
+        Position: {x: -32.5, y: 0, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 11
+        Position: {x: 0, y: 0, z: -35}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 15, y: 0, z: 30}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -15, y: 0, z: 30}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 47.5, y: 0, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -47.5, y: 0, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -50, y: 0, z: 25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -50, y: 0, z: 75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 50, y: 0, z: -25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 50, y: 0, z: -75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      chestEntities: []
+    - spawnPoint: {x: 0, y: 0, z: -75}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 1
+        Position: {x: 32.5, y: 0, z: 40}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 1
+        Position: {x: -35, y: 0, z: 40}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 1
+        Position: {x: 0, y: 0, z: -5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 29.2, y: 0, z: -7}
+        - {x: -30.8, y: 0, z: -7}
+      - EnemyType: 0
+        Position: {x: 0, y: 0, z: 75}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 29.2, y: 0, z: 73}
+        - {x: -30.8, y: 0, z: 73}
+      obstacleEntities:
+      - ObstaclesType: 1
+        Position: {x: -22.5, y: 0, z: 15}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 0, y: 0, z: 56.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -30, y: 0, z: 15}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 30, y: 0, z: 15}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 22.5, y: 0, z: 15}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 9
+        Position: {x: -37.5, y: 0, z: 55}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 9
+        Position: {x: 37.5, y: 0, z: 55}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 17.5, y: 0, z: -22.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 22.5, y: 0, z: 85}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -22.5, y: 0, z: 85}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -17.5, y: 0, z: -22.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -42.5, y: 0, z: -45}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 42.5, y: 0, z: -45}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 9
+        Position: {x: 0, y: 0, z: 12.5}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -50, y: 0, z: 25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -50, y: 0, z: 75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 50, y: 0, z: -25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 50, y: 0, z: -75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      chestEntities: []
+    xpAmount: 100
+    requiredUpg: 1
+    enemiesLevel: 1
+    hasCharacterSuggestion: 1
+    healSpawnPercent: 0.5
+    dropData:
+    - dropType: 0
+      currencyType: 0
+      cardType: 0
+      amount: 100
+    - dropType: 1
+      currencyType: 0
+      cardType: 3
+      amount: 2
+    specialBehaviours: []
+  - type: 0
+    rooms:
+    - spawnPoint: {x: 0, y: 0, z: -75}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 0
+        Position: {x: 12.5, y: 0, z: 77.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 1
+        PathPoints:
+        - {x: 51.4, y: 0, z: 75.2}
+        - {x: 30.3, y: 0, z: 85.7}
+        - {x: 6.7, y: 0, z: 72.5}
+      - EnemyType: 0
+        Position: {x: -34.2, y: 0, z: 5.9}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: -8, y: 0, z: 8.9}
+        - {x: -49.3, y: 0, z: 8.9}
+      - EnemyType: 1
+        Position: {x: 31.7, y: 0, z: 33.9}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 48.9, y: 0, z: 36.9}
+        - {x: 11, y: 0, z: 32.4}
+      - EnemyType: 1
+        Position: {x: 36.9, y: 0, z: -19}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      obstacleEntities:
+      - ObstaclesType: 4
+        Position: {x: -25, y: 0, z: -15}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: 37.5, y: 0, z: 52.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -12.5, y: 0, z: -15}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 25, y: 0, z: 52.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: -12.5, y: 0, z: 47.5}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 14
+        Position: {x: -10, y: 0, z: 32.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: -12.5, y: 0, z: 47.5}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 13
+        Position: {x: -22.5, y: 0, z: 32.5}
+        Rotation: {x: -0, y: 1, z: -0, w: 0.0000002980232}
+      - ObstaclesType: 3
+        Position: {x: 32.5, y: 0, z: 10}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 32.5, y: 0, z: -2.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 45, y: 0, z: -2.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 45, y: 0, z: 10}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 10
+        Position: {x: -22.5, y: 0, z: 22.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -57.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -57.5, y: 0, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -57.5, y: 0, z: -15}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 12
+        Position: {x: -40, y: 0, z: 60}
+        Rotation: {x: 0, y: 1, z: 0, w: 0}
+      - ObstaclesType: 12
+        Position: {x: -52.5, y: 0, z: 60}
+        Rotation: {x: 0, y: 1, z: 0, w: 0}
+      - ObstaclesType: 14
+        Position: {x: -57.5, y: 0, z: 57.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -37.5, y: 0, z: 97.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -37.5, y: 0, z: 97.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 37.5, y: 0, z: 97.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: 20, y: 0, z: -40}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 3
+        Position: {x: -62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: -62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: 62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -37.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 12.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 9
+        Position: {x: -56.25, y: 0, z: 100}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 9
+        Position: {x: 56.25, y: 0, z: 100}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 8
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      chestEntities:
+      - IsInited: 1
+        ChestType: 0
+        Position: {x: -47.7, y: 0, z: 91.4}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - spawnPoint: {x: 0, y: 0, z: -75}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 0
+        Position: {x: -28.7, y: 0, z: -10.1}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: -35.7, y: 0, z: -21.6}
+        - {x: -33.9, y: 0, z: -7.2000003}
+        - {x: -17.6, y: 0, z: -7.4000006}
+      - EnemyType: 0
+        Position: {x: 13.799999, y: 0, z: -10.1}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 18.699999, y: 0, z: -12.6}
+        - {x: 1.1999989, y: 0, z: -7.6000004}
+      - EnemyType: 0
+        Position: {x: 29.4, y: 0, z: 38.2}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 35.9, y: 0, z: 39.2}
+        - {x: -1.8999996, y: 0, z: 38.4}
+        - {x: -34.6, y: 0, z: 55.2}
+      - EnemyType: 0
+        Position: {x: 33.3, y: 0, z: 83.8}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 39, y: 0, z: 78.9}
+        - {x: 17.199999, y: 0, z: 82}
+        - {x: -2.1000023, y: 0, z: 87.9}
+        - {x: -32.2, y: 0, z: 87.200005}
+      obstacleEntities:
+      - ObstaclesType: 8
+        Position: {x: 0, y: 0, z: -42.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 8
+        Position: {x: 37.5, y: 0, z: -5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 8
+        Position: {x: -40, y: 0, z: 7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 8
+        Position: {x: -17.5, y: 0, z: 7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 8
+        Position: {x: 37.5, y: 0, z: 57.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 9
+        Position: {x: 0, y: 0, z: -30}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 9
+        Position: {x: 40, y: 0, z: 12.5}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 11
+        Position: {x: -35, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 7
+        Position: {x: 17.5, y: 0, z: 60}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -17.5, y: 0, z: 70}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -2.5, y: 0, z: 10}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -35, y: 0, z: -37.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 35, y: 0, z: -37.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -50, y: 0, z: 25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -50, y: 0, z: 75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 50, y: 0, z: -25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 50, y: 0, z: -75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      chestEntities: []
+    xpAmount: 120
+    requiredUpg: 2
+    enemiesLevel: 1
+    hasCharacterSuggestion: 1
+    healSpawnPercent: 0.5
+    dropData:
+    - dropType: 0
+      currencyType: 0
+      cardType: 0
+      amount: 140
+    - dropType: 1
+      currencyType: 0
+      cardType: 1
+      amount: 1
+    specialBehaviours: []
+  - type: 0
+    rooms:
+    - spawnPoint: {x: 0, y: 0, z: -75}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 0
+        Position: {x: 0, y: 0, z: -12.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 1
+        Position: {x: 42.5, y: 0, z: 30}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 1
+        Position: {x: -40, y: 0, z: 30}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 0
+        Position: {x: 0, y: 0, z: 82.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 25, y: 0, z: 80.5}
+        - {x: -22.5, y: 0, z: 80.5}
+      obstacleEntities:
+      - ObstaclesType: 6
+        Position: {x: 0, y: 0, z: -27.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: 10, y: 0, z: -22.5}
+        Rotation: {x: -0, y: -0.38268343, z: -0, w: 0.92387956}
+      - ObstaclesType: 6
+        Position: {x: -10, y: 0, z: -22.5}
+        Rotation: {x: -0, y: 0.3826833, z: -0, w: 0.9238796}
+      - ObstaclesType: 6
+        Position: {x: 42.5, y: 0, z: 12.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: 52.5, y: 0, z: 17.5}
+        Rotation: {x: -0, y: -0.38268343, z: -0, w: 0.92387956}
+      - ObstaclesType: 6
+        Position: {x: 32.5, y: 0, z: 17.5}
+        Rotation: {x: -0, y: 0.3826833, z: -0, w: 0.9238796}
+      - ObstaclesType: 6
+        Position: {x: -40, y: 0, z: 15}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: -30, y: 0, z: 20}
+        Rotation: {x: -0, y: -0.38268343, z: -0, w: 0.92387956}
+      - ObstaclesType: 6
+        Position: {x: -50, y: 0, z: 20}
+        Rotation: {x: -0, y: 0.3826833, z: -0, w: 0.9238796}
+      - ObstaclesType: 6
+        Position: {x: -5, y: 0, z: 57.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 25, y: 0, z: 20}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -22.5, y: 0, z: 20}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 7
+        Position: {x: 35, y: 0, z: -47.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 7
+        Position: {x: -35, y: 0, z: -47.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -52.5, y: 0, z: 10}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 0, y: 0, z: 50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 52.5, y: 0, z: 10}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: -52.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: -40, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: -40, y: 0, z: 90}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: 52.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: 40, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: 40, y: 0, z: 90}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 55, y: 0, z: 60}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -55, y: 0, z: 60}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: 5, y: 0, z: 57.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -37.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 12.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 9
+        Position: {x: -56.25, y: 0, z: 100}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 9
+        Position: {x: 56.25, y: 0, z: 100}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 8
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      chestEntities:
+      - IsInited: 1
+        ChestType: 0
+        Position: {x: 41.1, y: 0, z: 62.9}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - spawnPoint: {x: 0, y: 0, z: -100}
+      exitPoint: {x: 0, y: 0, z: 125}
+      enemyEntities:
+      - EnemyType: 0
+        Position: {x: 32.5, y: 0, z: 55}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 49.5, y: 0, z: 61.3}
+        - {x: 16.3, y: 0, z: 61.299988}
+      - EnemyType: 0
+        Position: {x: -30, y: 0, z: 52.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: -12.5, y: 0, z: 50.5}
+        - {x: -50.2, y: 0, z: 50.8}
+      - EnemyType: 1
+        Position: {x: 0, y: 0, z: 5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 0, y: 0, z: 21.3}
+        - {x: 0, y: 0, z: -19.5}
+      - EnemyType: 1
+        Position: {x: 39.3, y: 0, z: -35}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 1
+        Position: {x: -41, y: 0, z: -35}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 1
+        Position: {x: 0, y: 0, z: 102}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      obstacleEntities:
+      - ObstaclesType: 9
+        Position: {x: 42.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 9
+        Position: {x: -42.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 10
+        Position: {x: 0, y: 0, z: -40}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: -12.5, y: 0, z: 35}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: 12.5, y: 0, z: 35}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: 45, y: 0, z: 35}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: 55, y: 0, z: 35}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: -55, y: 0, z: 35}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: -45, y: 0, z: 35}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: -32.5, y: 0, z: 70}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: 32.5, y: 0, z: 70}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 14
+        Position: {x: -47.5, y: 0, z: 70}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 14
+        Position: {x: 45, y: 0, z: 70}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 14
+        Position: {x: 17.5, y: 0, z: 70}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 14
+        Position: {x: -20, y: 0, z: 70}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 0
+        Position: {x: -45, y: 0, z: 102.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 45, y: 0, z: 102.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -15, y: 0, z: -40}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 15, y: 0, z: -40}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -52.5, y: 0, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 52.5, y: 0, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -52.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 52.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -52.5, y: 0, z: -45}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 52.5, y: 0, z: -45}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -52.5, y: 0, z: -65}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 52.5, y: 0, z: -65}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -52.5, y: 0, z: -85}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 52.5, y: 0, z: -85}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 52.5, y: 0, z: -105}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -52.5, y: 0, z: -105}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 0, y: 0, z: 42.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 55, y: 0, z: 27.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -55, y: 0, z: 27.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 12
+        Position: {x: 20, y: 0, z: 80}
+        Rotation: {x: -0, y: -0.7071067, z: -0, w: 0.7071069}
+      - ObstaclesType: 12
+        Position: {x: -20, y: 0, z: 80}
+        Rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      - ObstaclesType: 12
+        Position: {x: 0, y: 0, z: 35}
+        Rotation: {x: -0, y: 1, z: -0, w: 0.00000032782552}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: 125}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: 125}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: -125}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: -125}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -62.5, y: 0, z: 50}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -62.5, y: 0, z: -50}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: 62.5, y: 0, z: 0}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 50}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 5
+        Position: {x: 62.5, y: 0, z: -50}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 4
+        Position: {x: 62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 5
+        Position: {x: 62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -37.5, y: 0, z: -125}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 12.5, y: 0, z: -125}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 125}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 125}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 9
+        Position: {x: -56.25, y: 0, z: 125}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 9
+        Position: {x: 56.25, y: 0, z: 125}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 8
+        Position: {x: 50, y: 0, z: -125}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 125}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      chestEntities:
+      - IsInited: 1
+        ChestType: 1
+        Position: {x: -30.9, y: 0, z: 116.2}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+    xpAmount: 100
+    requiredUpg: 4
+    enemiesLevel: 1
+    hasCharacterSuggestion: 0
+    healSpawnPercent: 0.5
+    dropData:
+    - dropType: 0
+      currencyType: 0
+      cardType: 0
+      amount: 120
+    - dropType: 1
+      currencyType: 0
+      cardType: 3
+      amount: 2
+    specialBehaviours: []
+  - type: 0
+    rooms:
+    - spawnPoint: {x: 0, y: 0, z: -75}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 2
+        Position: {x: 0, y: 0, z: 46.4}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      obstacleEntities:
+      - ObstaclesType: 7
+        Position: {x: 27.5, y: 0, z: 20}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 7
+        Position: {x: -10, y: 0, z: -10}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 7
+        Position: {x: -25, y: 0, z: 67.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -35, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 27.8, y: 0, z: 74.9}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 32.8, y: 0, z: -0.099998474}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 32.8, y: 0, z: -17.599998}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 32.8, y: 0, z: -35.1}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -37.5, y: 0, z: -70}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -32.5, y: 0, z: -80}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -27.5, y: 0, z: -67.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 9
+        Position: {x: 35, y: 0, z: -55}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 10
+        Position: {x: 40, y: 0, z: 52.5}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 2
+        Position: {x: -27.5, y: 0, z: 27.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -32.2, y: 0, z: -30.099998}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -27.5, y: 0, z: 17.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 42.5, y: 0, z: 92.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -27.5, y: 0, z: 92.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -40, y: 0, z: 92.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -50, y: 0, z: 25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -50, y: 0, z: 75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 50, y: 0, z: -25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 50, y: 0, z: -75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      chestEntities: []
+    - spawnPoint: {x: 0, y: 0, z: -75}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 1
+        Position: {x: -40, y: 0, z: -22.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: -25, y: 0, z: -27}
+        - {x: -50, y: 0, z: -14.5}
+        - {x: -52.5, y: 0, z: 3}
+      - EnemyType: 1
+        Position: {x: 50, y: 0, z: 62.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 1
+        PathPoints:
+        - {x: 50, y: 0, z: 23}
+        - {x: 50, y: 0, z: 65.5}
+        - {x: 12.5, y: 0, z: 80.5}
+      - EnemyType: 0
+        Position: {x: 47.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 0
+        Position: {x: 20, y: 0, z: 27.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 12, y: 0, z: 1.8999996}
+        - {x: 22, y: 0, z: 29.4}
+        - {x: 2, y: 0, z: 39.4}
+        - {x: -35.5, y: 0, z: 44.4}
+      - EnemyType: 2
+        Position: {x: -37.5, y: 0, z: 80}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      obstacleEntities:
+      - ObstaclesType: 6
+        Position: {x: -32.5, y: 0, z: 10}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: -22.5, y: 0, z: 10}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: -17.5, y: 0, z: 15}
+        Rotation: {x: -0, y: -0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 6
+        Position: {x: -37.5, y: 0, z: 5}
+        Rotation: {x: -0, y: -0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 6
+        Position: {x: 29.99998, y: 0, z: -32.5}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 6
+        Position: {x: 30.000015, y: 0, z: -42.5}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 6
+        Position: {x: 35, y: 0, z: -47.5}
+        Rotation: {x: -0, y: -0, z: -0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: 24.999996, y: 0, z: -27.5}
+        Rotation: {x: -0, y: -0, z: -0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: -17.50002, y: 0, z: 77.5}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 6
+        Position: {x: -17.499985, y: 0, z: 67.5}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 6
+        Position: {x: -12.5, y: 0, z: 62.5}
+        Rotation: {x: -0, y: -0, z: -0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: -22.500004, y: 0, z: 62.5}
+        Rotation: {x: -0, y: -0, z: -0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: -43.437492, y: 0, z: -43.43753}
+        Rotation: {x: -0, y: 0.000000029802322, z: -0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: -33.437492, y: 0, z: -43.4375}
+        Rotation: {x: -0, y: 0.000000029802322, z: -0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: -28.437496, y: 0, z: -48.4375}
+        Rotation: {x: -0, y: -0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 6
+        Position: {x: -53.437492, y: 0, z: -43.43753}
+        Rotation: {x: -0, y: 0.000000029802322, z: -0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: 50, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 14
+        Position: {x: 35.145702, y: 0, z: -0.0040283203}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 13
+        Position: {x: 39.27587, y: 0, z: 31.349121}
+        Rotation: {x: -0, y: -0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 9
+        Position: {x: 27.5, y: 0, z: 50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -42.5, y: 0, z: 10}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -50, y: 0, z: 87.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 35, y: 0, z: -45}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -27.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 55, y: 0, z: 95}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 55, y: 0, z: 82.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -30, y: 0, z: -90}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: 52.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: 40, y: 0, z: -80}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -37.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 12.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 9
+        Position: {x: -56.25, y: 0, z: 100}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 9
+        Position: {x: 56.25, y: 0, z: 100}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 8
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      chestEntities: []
+    - spawnPoint: {x: 0, y: 0, z: -75}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 1
+        Position: {x: 30, y: 0, z: -37.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 18.6, y: 0, z: -34.7}
+        - {x: 38.6, y: 0, z: -29.7}
+        - {x: 36.1, y: 0, z: -2.2000008}
+      - EnemyType: 2
+        Position: {x: -10, y: 0, z: 2.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: -35, y: 0, z: -19.5}
+        - {x: 10, y: 0, z: 15.5}
+      - EnemyType: 0
+        Position: {x: -35, y: 0, z: 40}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 0
+        Position: {x: 32.5, y: 0, z: 80}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 38.3, y: 0, z: 79.2}
+        - {x: -6.700001, y: 0, z: 81.7}
+      - EnemyType: 2
+        Position: {x: 27.5, y: 0, z: 37.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      obstacleEntities:
+      - ObstaclesType: 7
+        Position: {x: -37.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 7
+        Position: {x: -8.292492, y: 0, z: 31.503113}
+        Rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+      - ObstaclesType: 7
+        Position: {x: 18.1, y: 0, z: -12.900024}
+        Rotation: {x: -0, y: 0.00000017881393, z: -0, w: 1}
+      - ObstaclesType: 7
+        Position: {x: -1.8999996, y: 0, z: -22.900024}
+        Rotation: {x: -0, y: 0.00000017881393, z: -0, w: 1}
+      - ObstaclesType: 7
+        Position: {x: -16.9, y: 0, z: -37.900024}
+        Rotation: {x: -0, y: -0.7071066, z: -0, w: 0.70710707}
+      - ObstaclesType: 7
+        Position: {x: 38.1, y: 0, z: 59.599976}
+        Rotation: {x: -0, y: 0.00000014901161, z: -0, w: 1}
+      - ObstaclesType: 7
+        Position: {x: -36.9, y: 0, z: 79.599976}
+        Rotation: {x: -0, y: 0.00000014901161, z: -0, w: 1}
+      - ObstaclesType: 7
+        Position: {x: -20.792492, y: 0, z: 89.00311}
+        Rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+      - ObstaclesType: 7
+        Position: {x: 25.6, y: 0, z: -60.400024}
+        Rotation: {x: -0, y: 0.00000017881393, z: -0, w: 1}
+      - ObstaclesType: 7
+        Position: {x: -26.9, y: 0, z: -87.900024}
+        Rotation: {x: -0, y: -0.7071066, z: -0, w: 0.70710707}
+      - ObstaclesType: 4
+        Position: {x: -40, y: 0, z: -87.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -40, y: 0, z: -72.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 2.5, y: 0, z: -15}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -25, y: 0, z: 2.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 0, y: 0, z: 37.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -42.5, y: 0, z: 95}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -37.5, y: 0, z: 90}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 22.5, y: 0, z: 57.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 12.5, y: 0, z: 92.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 45, y: 0, z: 20}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 40, y: 0, z: -60}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -45, y: 0, z: -17.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -25, y: 0, z: 62.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -50, y: 0, z: 25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -50, y: 0, z: 75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 50, y: 0, z: -25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 50, y: 0, z: -75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      chestEntities:
+      - IsInited: 1
+        ChestType: 0
+        Position: {x: 40.2, y: 0, z: 47.2}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+    xpAmount: 150
+    requiredUpg: 5
+    enemiesLevel: 1
+    hasCharacterSuggestion: 1
+    healSpawnPercent: 0.5
+    dropData:
+    - dropType: 0
+      currencyType: 0
+      cardType: 0
+      amount: 150
+    - dropType: 1
+      currencyType: 0
+      cardType: 3
+      amount: 1
+    - dropType: 1
+      currencyType: 0
+      cardType: 1
+      amount: 1
+    specialBehaviours: []
+  - type: 0
+    rooms:
+    - spawnPoint: {x: 0, y: 0, z: -75}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 1
+        Position: {x: 32.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 32.5, y: 0, z: 18.7}
+        - {x: 32.5, y: 0, z: 73.7}
+      - EnemyType: 1
+        Position: {x: -25, y: 0, z: 25}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: -25, y: 0, z: 18.7}
+        - {x: -25, y: 0, z: 73.7}
+      - EnemyType: 0
+        Position: {x: 0, y: 0, z: -17.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 0
+        Position: {x: 2.5, y: 0, z: 87.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 1
+        Position: {x: -47.5, y: 0, z: 80}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      obstacleEntities:
+      - ObstaclesType: 3
+        Position: {x: 55, y: 0, z: -30}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 55, y: 0, z: -20}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 55, y: 5, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 55, y: 0, z: 20}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 55, y: 0, z: 30}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 55, y: 5, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -37.5, y: 0, z: 50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -37.5, y: 0, z: 60}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -37.5, y: 5, z: 55}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -47.5, y: 0, z: 50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -47.5, y: 0, z: 60}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -47.5, y: 5, z: 55}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 12
+        Position: {x: 0, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 14
+        Position: {x: 5.1456857, y: 0, z: -0.00401175}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 14
+        Position: {x: -5, y: 0, z: -0.00000023841858}
+        Rotation: {x: -0, y: 0.000000029802322, z: -0, w: 1}
+      - ObstaclesType: 12
+        Position: {x: 40, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 14
+        Position: {x: 45.145687, y: 0, z: -0.00401175}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 14
+        Position: {x: 35, y: 0, z: -0.00000023841858}
+        Rotation: {x: -0, y: 0.000000029802322, z: -0, w: 1}
+      - ObstaclesType: 12
+        Position: {x: -40, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 14
+        Position: {x: -34.854313, y: 0, z: -0.00401175}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 14
+        Position: {x: -45, y: 0, z: -0.00000023841858}
+        Rotation: {x: -0, y: 0.000000029802322, z: -0, w: 1}
+      - ObstaclesType: 12
+        Position: {x: -55, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 14
+        Position: {x: -49.854313, y: 0, z: -0.00401175}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 14
+        Position: {x: -60, y: 0, z: -0.00000023841858}
+        Rotation: {x: -0, y: 0.000000029802322, z: -0, w: 1}
+      - ObstaclesType: 12
+        Position: {x: 55, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 14
+        Position: {x: 60.145687, y: 0, z: -0.00401175}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 14
+        Position: {x: 50, y: 0, z: -0.00000023841858}
+        Rotation: {x: -0, y: 0.000000029802322, z: -0, w: 1}
+      - ObstaclesType: 11
+        Position: {x: 2.5, y: 0, z: 52.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 7.5, y: 0, z: 70}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 27.5, y: 0, z: 92.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -57.5, y: 0, z: -5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -22.5, y: 0, z: -52.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -12.5, y: 0, z: -45}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -2.5, y: 0, z: -47.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 7.5, y: 0, z: -45}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 8
+        Position: {x: -55, y: 0, z: -37.5}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 0
+        Position: {x: -35, y: 0, z: 42.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 27.5, y: 0, z: 85}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -5, y: 0, z: 37.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 2.5, y: 0, z: 37.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 10, y: 0, z: 37.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -2.5, y: 0, z: 70}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -55, y: 0, z: 92.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 8
+        Position: {x: 57.5, y: 0, z: 87.5}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 8
+        Position: {x: 47.5, y: 0, z: 100}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -37.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 12.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 9
+        Position: {x: -56.25, y: 0, z: 100}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 9
+        Position: {x: 56.25, y: 0, z: 100}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 8
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      chestEntities: []
+    - spawnPoint: {x: 0, y: 0, z: -75}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 2
+        Position: {x: -32.5, y: 0, z: -27.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: -32.5, y: 0, z: -33.5}
+        - {x: -39, y: 0, z: 6.299999}
+        - {x: -25, y: 0, z: 29}
+      - EnemyType: 2
+        Position: {x: 2.5, y: 0, z: 67.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 2.5, y: 0, z: 83}
+        - {x: 5, y: 0, z: 58}
+        - {x: 5, y: 0, z: 30.5}
+      - EnemyType: 0
+        Position: {x: 35, y: 0, z: 47.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 0
+        Position: {x: -32.5, y: 0, z: 67.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 1
+        Position: {x: 35, y: 0, z: -27.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 17.2, y: 0, z: -28}
+        - {x: 37.2, y: 0, z: -20.5}
+        - {x: 37.2, y: 0, z: 9.5}
+      obstacleEntities:
+      - ObstaclesType: 9
+        Position: {x: 0, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 10
+        Position: {x: 12.499958, y: 0, z: -12.5}
+        Rotation: {x: -0, y: -0.000000029802322, z: -0, w: 1}
+      - ObstaclesType: 10
+        Position: {x: -12.500042, y: 0, z: -12.5}
+        Rotation: {x: -0, y: -0.000000029802322, z: -0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -40, y: 0, z: 47.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -40, y: 0, z: 47.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -25, y: 0, z: 47.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 27.5, y: 0, z: 30}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 42.5, y: 0, z: 30}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -12.5, y: 0, z: 47.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 17.5, y: 0, z: 92.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -17.5, y: 0, z: 92.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -17.5, y: 0, z: 82.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 17.5, y: 0, z: 82.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: 22.5, y: 0, z: 42.5}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 6
+        Position: {x: 22.5, y: 0, z: 55}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 7
+        Position: {x: -40, y: 0, z: -50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -10, y: 0, z: -30}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 20, y: 0, z: -47.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -45, y: 0, z: 37.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -15, y: 0, z: -2.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 42.5, y: 0, z: 92.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 10, y: 0, z: -50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -25, y: 0, z: -90}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 25, y: 0, z: -90}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 40, y: 0, z: -82.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -40, y: 0, z: -82.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -42.5, y: 0, z: 85}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -45, y: 0, z: -15}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 45, y: 0, z: 20}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -50, y: 0, z: 25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -50, y: 0, z: 75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 50, y: 0, z: -25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 50, y: 0, z: -75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      chestEntities:
+      - IsInited: 1
+        ChestType: 1
+        Position: {x: 31.4, y: 0, z: 89.6}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - spawnPoint: {x: 0, y: 0, z: -100}
+      exitPoint: {x: 0, y: 0, z: 125}
+      enemyEntities:
+      - EnemyType: 2
+        Position: {x: -25, y: 0, z: 27.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 1
+        PathPoints:
+        - {x: -25, y: 0, z: 24.9}
+        - {x: 10.5, y: 0, z: 24.9}
+      - EnemyType: 1
+        Position: {x: 42.5, y: 0, z: -45}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 47.8, y: 0, z: -52.7}
+        - {x: 26.3, y: 0, z: -36.2}
+        - {x: 8.700001, y: 0, z: -30}
+      - EnemyType: 1
+        Position: {x: 50, y: 0, z: 35}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 50, y: 0, z: 25.6}
+        - {x: 50, y: 0, z: 67}
+      - EnemyType: 0
+        Position: {x: -20, y: 0, z: -27.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: -19.4, y: 0, z: -37.3}
+        - {x: -26.8, y: 0, z: -3.2000008}
+        - {x: -46.5, y: 0, z: 2.5}
+      - EnemyType: 0
+        Position: {x: -5, y: 0, z: 92.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 2.3000002, y: 0, z: 89.5}
+        - {x: -47.7, y: 0, z: 89.5}
+      - EnemyType: 0
+        Position: {x: 47.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      obstacleEntities:
+      - ObstaclesType: 4
+        Position: {x: -52.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: -40, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 11
+        Position: {x: 0, y: 0, z: 57.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 9
+        Position: {x: 52.5, y: 0, z: -7.5}
+        Rotation: {x: -0, y: -0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 9
+        Position: {x: 40, y: 0, z: -7.5}
+        Rotation: {x: -0, y: -0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 7
+        Position: {x: -25, y: 0, z: 67.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 7
+        Position: {x: 25, y: 0, z: 50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: 22.5, y: 0, z: 2.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 14
+        Position: {x: 12.5, y: 0, z: 2.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: -2.5, y: 0, z: 2.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: 0, y: 0, z: -55}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 14
+        Position: {x: -10, y: 0, z: -55}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: -25, y: 0, z: -55}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 14
+        Position: {x: -35, y: 0, z: -55}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 12
+        Position: {x: -36.747242, y: 0, z: -60.42224}
+        Rotation: {x: -0, y: 0.70710677, z: -0, w: 0.7071069}
+      - ObstaclesType: 13
+        Position: {x: 25, y: 0, z: -70}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 14
+        Position: {x: -35, y: 0, z: -55}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 12
+        Position: {x: -36.747242, y: 0, z: -60.42224}
+        Rotation: {x: -0, y: 0.70710677, z: -0, w: 0.7071069}
+      - ObstaclesType: 14
+        Position: {x: 15, y: 0, z: -55}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 12
+        Position: {x: 13.252758, y: 0, z: -60.42224}
+        Rotation: {x: -0, y: 0.70710677, z: -0, w: 0.7071069}
+      - ObstaclesType: 3
+        Position: {x: -25, y: 0, z: -60}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -12.5, y: 0, z: -60}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 0, y: 0, z: -60}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: -7.5, y: 0, z: -5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 17.5, y: 0, z: 95}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -20, y: 0, z: 115}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -55, y: 0, z: 37.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 27.5, y: 0, z: 92.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 52.5, y: 0, z: 115}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 52.5, y: 0, z: 115}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -30, y: 0, z: 105}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 10
+        Position: {x: -55.033596, y: 0, z: 110.33862}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 2
+        Position: {x: -42.5, y: 0, z: 27.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 37.5, y: 0, z: -27.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: 125}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: 125}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: -125}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: -125}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -62.5, y: 0, z: 50}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -50}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 62.5, y: 0, z: 0}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 50}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 62.5, y: 0, z: -50}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 4
+        Position: {x: 62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -37.5, y: 0, z: -125}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 12.5, y: 0, z: -125}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 125}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 125}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 9
+        Position: {x: -56.25, y: 0, z: 125}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 9
+        Position: {x: 56.25, y: 0, z: 125}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 8
+        Position: {x: 50, y: 0, z: -125}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 125}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      chestEntities: []
+    xpAmount: 100
+    requiredUpg: 6
+    enemiesLevel: 1
+    hasCharacterSuggestion: 0
+    healSpawnPercent: 0.5
+    dropData:
+    - dropType: 0
+      currencyType: 0
+      cardType: 0
+      amount: 130
+    - dropType: 1
+      currencyType: 0
+      cardType: 1
+      amount: 1
+    specialBehaviours: []
+  - type: 0
+    rooms:
+    - spawnPoint: {x: 0, y: 0, z: -75}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 0
+        Position: {x: 0, y: 0, z: -10.3}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 0
+        Position: {x: 0, y: 0, z: 85}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 1
+        Position: {x: 30, y: 0, z: 0}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 30, y: 0, z: -0.1}
+        - {x: 42.5, y: 0, z: 17.4}
+        - {x: 42.5, y: 0, z: 17.4}
+        - {x: 42.5, y: 0, z: 39.9}
+      - EnemyType: 1
+        Position: {x: -32.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: -32.5, y: 0, z: -0.1}
+        - {x: -40.8, y: 0, z: 17.4}
+        - {x: -37.2, y: 0, z: 41.4}
+      - EnemyType: 2
+        Position: {x: 0, y: 0, z: 52.3}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 24.4, y: 0, z: 50.7}
+        - {x: -25.6, y: 0, z: 50.7}
+      obstacleEntities:
+      - ObstaclesType: 2
+        Position: {x: -15, y: 0, z: -17.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 15, y: 0, z: -17.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 0, y: 0, z: 27.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 12.5, y: 0, z: 27.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 25, y: 0, z: 27.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -25, y: 0, z: 27.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -12.5, y: 0, z: 27.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: -35, y: 0, z: -22.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: 35, y: 0, z: -22.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 14
+        Position: {x: -20, y: 0, z: -22.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 14
+        Position: {x: 20.145685, y: 0, z: -22.504011}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 4
+        Position: {x: -15, y: 0, z: 70}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: 15, y: 0, z: 70}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 12.5, y: 0, z: 17.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -12.5, y: 0, z: 17.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -40, y: 0, z: 90}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 40, y: 0, z: 90}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 30, y: 0, z: 95}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -30, y: 0, z: 95}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 12
+        Position: {x: 0, y: 0, z: -50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 12
+        Position: {x: -26.095757, y: 0, z: -54.548492}
+        Rotation: {x: -0, y: 0.3826833, z: -0, w: 0.9238796}
+      - ObstaclesType: 12
+        Position: {x: 26.390684, y: 0, z: -54.553127}
+        Rotation: {x: -0, y: -0.38268343, z: -0, w: 0.92387956}
+      - ObstaclesType: 8
+        Position: {x: -45, y: 0, z: -35}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 8
+        Position: {x: 45, y: 0, z: -35}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -50, y: 0, z: 25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -50, y: 0, z: 75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 50, y: 0, z: -25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 50, y: 0, z: -75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      chestEntities: []
+    - spawnPoint: {x: 0, y: 0, z: -100}
+      exitPoint: {x: 0, y: 0, z: 125}
+      enemyEntities:
+      - EnemyType: 0
+        Position: {x: -40, y: 0, z: -20}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: -24.5, y: 0, z: -16.8}
+        - {x: -47, y: 0, z: -16.8}
+        - {x: -49.5, y: 0, z: 10.700001}
+      - EnemyType: 1
+        Position: {x: -16.8, y: 0, z: 32.8}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 1
+        Position: {x: 50, y: 0, z: 50}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 1
+        Position: {x: -47.5, y: 0, z: 47.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: -39.4, y: 0, z: 35.7}
+        - {x: -52.4, y: 0, z: 57.6}
+        - {x: -52.4, y: 0, z: 82.6}
+      - EnemyType: 0
+        Position: {x: 50, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 0
+        Position: {x: -2.5, y: 0, z: 105}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 2
+        Position: {x: 45, y: 0, z: 7.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      obstacleEntities:
+      - ObstaclesType: 7
+        Position: {x: -30, y: 0, z: -42.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 7
+        Position: {x: -50, y: 0, z: -52.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 10
+        Position: {x: 22.5, y: 0, z: -60}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 10
+        Position: {x: 10, y: 0, z: -47.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -25, y: 0, z: -32.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: 27.5, y: 0, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: 27.5, y: 0, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: 0, y: 0, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: -27.5, y: 0, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 35, y: 0, z: -17.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 7
+        Position: {x: 50, y: 0, z: -27.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: -25.724125, y: 0, z: 28.849121}
+        Rotation: {x: -0, y: -0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 13
+        Position: {x: 9.275875, y: 0, z: 8.849121}
+        Rotation: {x: -0, y: -0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 13
+        Position: {x: 34.275875, y: 0, z: 56.34912}
+        Rotation: {x: -0, y: -0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 13
+        Position: {x: 47.499996, y: 0, z: 67.5}
+        Rotation: {x: -0, y: -0.000000029802322, z: -0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: 7.499996, y: 0, z: 22.5}
+        Rotation: {x: -0, y: -0.000000029802322, z: -0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: -15.000004, y: 0, z: 42.5}
+        Rotation: {x: -0, y: -0.000000029802322, z: -0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: -15.000004, y: 0, z: 42.5}
+        Rotation: {x: -0, y: -0.000000029802322, z: -0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: -36.042374, y: 0, z: 53.10852}
+        Rotation: {x: -0, y: 0.38268346, z: -0, w: 0.92387956}
+      - ObstaclesType: 7
+        Position: {x: -5, y: 0, z: 82.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 7
+        Position: {x: -28.3, y: 0, z: 114.79999}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 2
+        Position: {x: 30, y: 0, z: 100}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -30, y: 0, z: 102.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 57.5, y: 0, z: 35}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 57.5, y: 0, z: 20}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -22.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -30, y: 0, z: -77.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 32.5, y: 0, z: -70}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 42.5, y: 0, z: -97.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 7.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 57.5, y: 0, z: 120}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -57.5, y: 0, z: -27.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -57.5, y: 0, z: -95}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -20, y: 0, z: 115.000015}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 14
+        Position: {x: 15, y: 0, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 14
+        Position: {x: -12.5, y: 0, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 14
+        Position: {x: -25, y: 0, z: 40}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 14
+        Position: {x: 35, y: 0, z: 67.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 35, y: 0, z: -10}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 7.5, y: 0, z: -60}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 0, y: 0, z: -57.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 25, y: 0, z: -67.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 17.5, y: 0, z: -67.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: 125}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: 125}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: -125}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: -125}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -62.5, y: 0, z: 50}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -50}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 62.5, y: 0, z: 0}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 50}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 62.5, y: 0, z: -50}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 4
+        Position: {x: 62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -37.5, y: 0, z: -125}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 12.5, y: 0, z: -125}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 125}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 125}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 9
+        Position: {x: -56.25, y: 0, z: 125}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 9
+        Position: {x: 56.25, y: 0, z: 125}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 8
+        Position: {x: 50, y: 0, z: -125}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 125}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      chestEntities:
+      - IsInited: 1
+        ChestType: 0
+        Position: {x: -40.9, y: 0, z: 115.9}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - spawnPoint: {x: 0, y: 0, z: -75}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 1
+        Position: {x: 12.5, y: 0, z: -27.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 1
+        Position: {x: -40, y: 0, z: 0}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: -40, y: 0, z: -32.9}
+        - {x: -40, y: 0, z: 12.099998}
+      - EnemyType: 0
+        Position: {x: 32.5, y: 0, z: 87.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 1
+        PathPoints:
+        - {x: 32.5, y: 0, z: 88}
+        - {x: 32.5, y: 0, z: 65.5}
+      - EnemyType: 0
+        Position: {x: -37.5, y: 0, z: 72.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 2
+        Position: {x: 0, y: 0, z: 25.7}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      obstacleEntities:
+      - ObstaclesType: 2
+        Position: {x: -25, y: 0, z: -12.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 17.5, y: 0, z: 35}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -22.5, y: 0, z: 65}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 32.5, y: 0, z: -17.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 42.5, y: 0, z: -17.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -15, y: 0, z: -12.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 17.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -30, y: 0, z: 55}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 17.5, y: 0, z: 90}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 17.5, y: 0, z: 77.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 17.5, y: 0, z: 65}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: -25, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 7
+        Position: {x: -37.5, y: 0, z: -55}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: 10, y: 0, z: -50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 6
+        Position: {x: 0, y: 0, z: -47.5}
+        Rotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
+      - ObstaclesType: 1
+        Position: {x: -17.5, y: 0, z: 95}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -25, y: 0, z: 95}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -42.5, y: 0, z: 95}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -42.5, y: 0, z: 87.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 45, y: 0, z: 52.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 30, y: 0, z: -5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 42.5, y: 0, z: -52.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 42.5, y: 0, z: -65}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -45, y: 0, z: 30}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -45, y: 0, z: 22.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 45, y: 0, z: 60}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -50, y: 0, z: 25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -50, y: 0, z: 75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 50, y: 0, z: -25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 50, y: 0, z: -75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      chestEntities:
+      - IsInited: 1
+        ChestType: 1
+        Position: {x: 40.91, y: 0, z: -29.53}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+    xpAmount: 110
+    requiredUpg: 7
+    enemiesLevel: 2
+    hasCharacterSuggestion: 1
+    healSpawnPercent: 0.5
+    dropData:
+    - dropType: 0
+      currencyType: 0
+      cardType: 0
+      amount: 120
+    specialBehaviours: []
+  - type: 0
+    rooms:
+    - spawnPoint: {x: 0, y: 0, z: -75}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 0
+        Position: {x: 50, y: 0, z: -2.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 47.5, y: 0, z: -17}
+        - {x: 45, y: 0, z: 15.5}
+        - {x: 25, y: 0, z: 35.5}
+      - EnemyType: 0
+        Position: {x: 25, y: 0, z: 57.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 47.1, y: 0, z: 64.3}
+        - {x: 29.6, y: 0, z: 69.3}
+        - {x: 17.2, y: 0, z: 48}
+        - {x: -5, y: 0, z: 50.5}
+      - EnemyType: 0
+        Position: {x: -37.5, y: 0, z: 27.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: -1, y: 0, z: 11.1}
+        - {x: -32, y: 0, z: 14.1}
+        - {x: -46.4, y: 0, z: 35.4}
+        - {x: -46.4, y: 0, z: 35.4}
+      - EnemyType: 0
+        Position: {x: -12.5, y: 0, z: 77.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 4.700001, y: 0, z: 86}
+        - {x: -15.5, y: 0, z: 66.4}
+        - {x: -38, y: 0, z: 65.4}
+      obstacleEntities:
+      - ObstaclesType: 9
+        Position: {x: 22.5, y: 0, z: -15}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 9
+        Position: {x: -2.5, y: 0, z: -15}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 7
+        Position: {x: -25, y: 0, z: -25}
+        Rotation: {x: -0, y: -1, z: -0, w: 0.00000032782552}
+      - ObstaclesType: 7
+        Position: {x: -40, y: 0, z: -35}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 7
+        Position: {x: -50, y: 0, z: -45}
+        Rotation: {x: -0, y: -1, z: -0, w: 0.00000032782552}
+      - ObstaclesType: 0
+        Position: {x: 22.5, y: 0, z: 17.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -22.5, y: 0, z: 22.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 10, y: 0, z: 65}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 37.5, y: 0, z: 45}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -30, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -40, y: 0, z: 47.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -52.5, y: 0, z: 22.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 2.5, y: 0, z: 35}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -32.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 37.5, y: 0, z: 82.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -52.5, y: 0, z: 92.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 37.5, y: 0, z: -52.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 17.5, y: 0, z: -27.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 5, y: 0, z: -27.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 55, y: 0, z: 92.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 55, y: 0, z: 80}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -55, y: 0, z: 82.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -54.573982, y: 0, z: 67.61233}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -37.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 12.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 9
+        Position: {x: -56.25, y: 0, z: 100}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 9
+        Position: {x: 56.25, y: 0, z: 100}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 8
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      chestEntities: []
+    - spawnPoint: {x: 0, y: 0, z: -75}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 2
+        Position: {x: 47.5, y: 0, z: 7.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 2
+        Position: {x: -47.5, y: 0, z: 7.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 0
+        Position: {x: 0, y: 0, z: 0}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 1
+        PathPoints:
+        - {x: 0, y: 0, z: -16.2}
+        - {x: 0, y: 0, z: 16.3}
+      - EnemyType: 1
+        Position: {x: 22.5, y: 0, z: 42.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 22.5, y: 0, z: 33}
+        - {x: 22.5, y: 0, z: 79}
+        - {x: 47.5, y: 0, z: 79}
+      - EnemyType: 1
+        Position: {x: -25, y: 0, z: 42.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: -25, y: 0, z: 33}
+        - {x: -25, y: 0, z: 79}
+        - {x: -50, y: 0, z: 79}
+      obstacleEntities:
+      - ObstaclesType: 11
+        Position: {x: 47.5, y: 0, z: 45}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 11
+        Position: {x: 0, y: 0, z: 45}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 11
+        Position: {x: -47.5, y: 0, z: 45}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: 22.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: -22.5, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 8
+        Position: {x: -27.5, y: 0, z: -10}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 8
+        Position: {x: 27.5, y: 0, z: -10}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 12
+        Position: {x: -36.547268, y: 0, z: 61.57773}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 12
+        Position: {x: 36.577736, y: 0, z: 61.54727}
+        Rotation: {x: -0, y: -0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 4
+        Position: {x: 0, y: 0, z: -35}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: -15, y: 0, z: -45}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: 15, y: 0, z: -45}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -52.5, y: 0, z: -77.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -37.5, y: 0, z: -77.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 37.5, y: 0, z: -77.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 52.5, y: 0, z: -77.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -55, y: 0, z: 27.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -55, y: 0, z: -30}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 55, y: 0, z: -30}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 55, y: 0, z: 27.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -37.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 12.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 9
+        Position: {x: -56.25, y: 0, z: 100}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 9
+        Position: {x: 56.25, y: 0, z: 100}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 8
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      chestEntities: []
+    - spawnPoint: {x: 0, y: 0, z: -75}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 4
+        Position: {x: 2.5, y: 0, z: 47.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      obstacleEntities:
+      - ObstaclesType: 5
+        Position: {x: 22.5, y: 0, z: 10}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -15, y: 0, z: -5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 17.5, y: 0, z: -37.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 30, y: 0, z: 70}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 30, y: 0, z: 57.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 30, y: 0, z: 45}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 9
+        Position: {x: -25, y: 0, z: 50}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -27.5, y: 0, z: -5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: -50, y: 0, z: 45}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -15, y: 0, z: 77.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -42.5, y: 0, z: 80}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 40, y: 0, z: 45}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 12
+        Position: {x: -7.4695826, y: 0, z: -39.375}
+        Rotation: {x: -0, y: -1, z: -0, w: 0.00000032782552}
+      - ObstaclesType: 12
+        Position: {x: 5.0304174, y: 0, z: -39.375}
+        Rotation: {x: -0, y: -1, z: -0, w: 0.00000032782552}
+      - ObstaclesType: 14
+        Position: {x: -12.5, y: 0, z: -42.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 8
+        Position: {x: 25, y: 0, z: -27.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -40, y: 0, z: -5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 35, y: 0, z: 10}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 8
+        Position: {x: -50, y: 0, z: -82.5}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 8
+        Position: {x: -37.5, y: 0, z: -87.5}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 8
+        Position: {x: -25, y: 0, z: -97.5}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 8
+        Position: {x: 27.5, y: 0, z: -97.5}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 8
+        Position: {x: 37.5, y: 0, z: -87.5}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 8
+        Position: {x: 50, y: 0, z: -82.5}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -37.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 12.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 9
+        Position: {x: -56.25, y: 0, z: 100}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 9
+        Position: {x: 56.25, y: 0, z: 100}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 8
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      chestEntities:
+      - IsInited: 1
+        ChestType: 0
+        Position: {x: -52.4, y: 0, z: 91.43}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+    xpAmount: 100
+    requiredUpg: 8
+    enemiesLevel: 2
+    hasCharacterSuggestion: 0
+    healSpawnPercent: 0.5
+    dropData:
+    - dropType: 0
+      currencyType: 0
+      cardType: 0
+      amount: 160
+    - dropType: 1
+      currencyType: 0
+      cardType: 1
+      amount: 1
+    specialBehaviours: []
+  - type: 0
+    rooms:
+    - spawnPoint: {x: 0, y: 0, z: -75}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 4
+        Position: {x: -15, y: 0, z: 55}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 30, y: 0, z: 50.5}
+        - {x: -42.5, y: 0, z: 55.5}
+      - EnemyType: 1
+        Position: {x: 25, y: 0, z: -27.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 29, y: 0, z: -30.3}
+        - {x: 8.299999, y: 0, z: -20.7}
+        - {x: -16.599998, y: 0, z: -20}
+      - EnemyType: 2
+        Position: {x: -35, y: 0, z: -5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 0
+        Position: {x: -13.9, y: 0, z: 12.4}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: -19.3, y: 0, z: 10.9}
+        - {x: 13.9, y: 0, z: 15.5}
+        - {x: 37.1, y: 0, z: 31.699999}
+      obstacleEntities:
+      - ObstaclesType: 10
+        Position: {x: -37.5, y: 0, z: -32.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 10
+        Position: {x: 35, y: 0, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 10
+        Position: {x: -35, y: 0, z: 32.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 10
+        Position: {x: -10, y: 0, z: 32.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 10
+        Position: {x: 7.5, y: 0, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -10, y: 0, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -10, y: 5, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -10, y: 10, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -10, y: 14.999999, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 10, y: 0, z: 32.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 10, y: 5, z: 32.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 10, y: 10, z: 32.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 10, y: 14.999999, z: 32.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 25, y: 0, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 25, y: 5, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 25, y: 10, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: 25, y: 14.999999, z: -7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -30, y: 0, z: 32.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -30, y: 5, z: 32.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -30, y: 10, z: 32.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -30, y: 14.999999, z: 32.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 27.5, y: 0, z: 70}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 0, y: 0, z: 70}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -30, y: 0, z: 70}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -42.5, y: 0, z: 20}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 42.5, y: 0, z: -20}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: -10, y: 0, z: -40}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 14
+        Position: {x: -22.5, y: 0, z: -40}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 12
+        Position: {x: 8.899608, y: 0, z: -44.53158}
+        Rotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
+      - ObstaclesType: 14
+        Position: {x: 5, y: 0, z: -40}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 27.5, y: 0, z: -67.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -27.5, y: 0, z: -67.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -45, y: 0, z: -45}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -45, y: 0, z: -85}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 45, y: 0, z: -85}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 35, y: 0, z: 92.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -42.5, y: 0, z: 92.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -50, y: 0, z: 25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -50, y: 0, z: 75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 50, y: 0, z: -25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 50, y: 0, z: -75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      chestEntities:
+      - IsInited: 1
+        ChestType: 0
+        Position: {x: -18.77, y: 0, z: -44.13}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - spawnPoint: {x: 0, y: 0, z: -75}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 1
+        Position: {x: 10, y: 0, z: 7.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 1
+        Position: {x: -12.5, y: 0, z: 32.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 0
+        Position: {x: -17.5, y: 0, z: 7.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 0
+        Position: {x: 10, y: 0, z: 32.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 0
+        Position: {x: 20, y: 0, z: 80}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 0
+        Position: {x: -17.5, y: 0, z: 80}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      obstacleEntities:
+      - ObstaclesType: 2
+        Position: {x: 42.5, y: 0, z: 20}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 0, y: 0, z: -17.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 0, y: 0, z: 60}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -42.5, y: 0, z: 20}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 32.61124, y: 0, z: -2.5460815}
+        Rotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
+      - ObstaclesType: 2
+        Position: {x: -32.61124, y: 0, z: -2.5460815}
+        Rotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
+      - ObstaclesType: 2
+        Position: {x: -30.11124, y: 0, z: 47.54608}
+        Rotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
+      - ObstaclesType: 2
+        Position: {x: 30.11124, y: 0, z: 47.54608}
+        Rotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
+      - ObstaclesType: 1
+        Position: {x: 0, y: 0, z: 15}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 0, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 7.5, y: 0, z: 20}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: -7.5, y: 0, z: 20}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 9
+        Position: {x: 45, y: 0, z: 90}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 8
+        Position: {x: -35, y: 0, z: 90}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 8
+        Position: {x: -52.5, y: 0, z: 90}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 4
+        Position: {x: 55, y: 0, z: -30}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: 40.4, y: 0, z: -28.2}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: 40.1, y: 0, z: -56.9}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 4
+        Position: {x: 55, y: 0, z: -60}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -47.5, y: 0, z: -30}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -37.5, y: 0, z: -40}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -50, y: 0, z: -47.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -52.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -47.5, y: 5, z: -30}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 5
+        Position: {x: -47.5, y: 10, z: -30}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: -35, y: 0, z: -85}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 0
+        Position: {x: 55, y: 0, z: 67.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -37.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 12.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 9
+        Position: {x: -56.25, y: 0, z: 100}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 9
+        Position: {x: 56.25, y: 0, z: 100}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 8
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      chestEntities:
+      - IsInited: 1
+        ChestType: 1
+        Position: {x: 53.3, y: 0, z: -41.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+    - spawnPoint: {x: 0, y: 0, z: -75}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 1
+        Position: {x: 0, y: 0, z: -30}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 1
+        Position: {x: 15, y: 0, z: 22.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 1
+        Position: {x: -30, y: 0, z: 60}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 1
+        PathPoints:
+        - {x: -36.4, y: 0, z: 42.3}
+        - {x: -21.4, y: 0, z: 52.3}
+        - {x: -26.3, y: 0, z: 78.9}
+      - EnemyType: 2
+        Position: {x: 37.5, y: 0, z: 52.5}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 37.5, y: 0, z: -2}
+        - {x: 37.5, y: 0, z: 70.5}
+      - EnemyType: 0
+        Position: {x: -22.5, y: 0, z: 20}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 0
+        Position: {x: 2.5, y: 0, z: 60}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints: []
+      obstacleEntities:
+      - ObstaclesType: 13
+        Position: {x: 0, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 12
+        Position: {x: 20, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 12
+        Position: {x: -20, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: -1.3491315, y: 0, z: 16.775879}
+        Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 13
+        Position: {x: 0, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: 0.42674813, y: 0, z: 45.625}
+        Rotation: {x: -0, y: 1, z: -0, w: 0.00000032782552}
+      - ObstaclesType: 12
+        Position: {x: 18.899609, y: 0, z: 37.968445}
+        Rotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
+      - ObstaclesType: 12
+        Position: {x: -18.895033, y: 0, z: 40.173584}
+        Rotation: {x: -0, y: 0.9238795, z: -0, w: 0.38268366}
+      - ObstaclesType: 13
+        Position: {x: -37.5, y: 0, z: -22.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 13
+        Position: {x: -9.573255, y: 0, z: -19.375}
+        Rotation: {x: -0, y: -1, z: -0, w: 0.00000032782552}
+      - ObstaclesType: 13
+        Position: {x: -10.724129, y: 0, z: 58.84912}
+        Rotation: {x: -0, y: 0.70710635, z: -0, w: -0.7071073}
+      - ObstaclesType: 12
+        Position: {x: 18.899609, y: 0, z: -42.031555}
+        Rotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
+      - ObstaclesType: 12
+        Position: {x: 32.5317, y: 0, z: -44.3656}
+        Rotation: {x: -0, y: 1, z: -0, w: 0.00000032782552}
+      - ObstaclesType: 12
+        Position: {x: 45.0317, y: 0, z: -44.3656}
+        Rotation: {x: -0, y: 1, z: -0, w: 0.00000032782552}
+      - ObstaclesType: 5
+        Position: {x: -20, y: 0, z: -30}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 1
+        Position: {x: 20, y: 0, z: 67.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: 7.5, y: 0, z: 7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -7.5, y: 0, z: 7.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -40, y: 0, z: 92.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 3
+        Position: {x: -40, y: 5, z: 92.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 10
+        Position: {x: 35, y: 0, z: 92.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 8
+        Position: {x: -37.5, y: 0, z: -90}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 8
+        Position: {x: -45, y: 0, z: -77.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 40, y: 0, z: -70}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 20, y: 0, z: -92.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 12
+        Position: {x: -21.100391, y: 0, z: -42.031555}
+        Rotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
+      - ObstaclesType: 14
+        Position: {x: -14.874447, y: 0, z: 2.3114014}
+        Rotation: {x: -0, y: -1, z: -0, w: 0.00000032782552}
+      - ObstaclesType: 14
+        Position: {x: 15, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 14
+        Position: {x: -14.874447, y: 0, z: 44.8114}
+        Rotation: {x: -0, y: -1, z: -0, w: 0.00000032782552}
+      - ObstaclesType: 14
+        Position: {x: 12.625553, y: 0, z: 44.8114}
+        Rotation: {x: -0, y: -1, z: -0, w: 0.00000032782552}
+      - ObstaclesType: 14
+        Position: {x: 25.125553, y: 0, z: 2.3114014}
+        Rotation: {x: -0, y: -1, z: -0, w: 0.00000032782552}
+      - ObstaclesType: 14
+        Position: {x: -27.374447, y: 0, z: 2.3114014}
+        Rotation: {x: -0, y: -1, z: -0, w: 0.00000032782552}
+      - ObstaclesType: 14
+        Position: {x: 27.479864, y: 0, z: -45.18463}
+        Rotation: {x: -0, y: -0.7071067, z: -0, w: 0.70710695}
+      - ObstaclesType: 14
+        Position: {x: 16.301893, y: 0, z: -34.699036}
+        Rotation: {x: -0, y: -0.9238795, z: -0, w: 0.38268358}
+      - ObstaclesType: 14
+        Position: {x: -16.198107, y: 0, z: -42.199036}
+        Rotation: {x: -0, y: -0.9238795, z: -0, w: 0.38268358}
+      - ObstaclesType: 14
+        Position: {x: -24.874447, y: 0, z: -20.188599}
+        Rotation: {x: -0, y: -1, z: -0, w: 0.00000032782552}
+      - ObstaclesType: 14
+        Position: {x: 0.12555313, y: 0, z: -20.188599}
+        Rotation: {x: -0, y: -1, z: -0, w: 0.00000032782552}
+      - ObstaclesType: 14
+        Position: {x: -25.415014, y: 0, z: 33.688416}
+        Rotation: {x: -0, y: -0.92387974, z: -0, w: -0.382683}
+      - ObstaclesType: 14
+        Position: {x: 22.084986, y: 0, z: 33.688416}
+        Rotation: {x: -0, y: -0.92387974, z: -0, w: -0.382683}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 25, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -50, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -50, y: 0, z: 25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -50, y: 0, z: -75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -50, y: 0, z: 75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 50, y: 0, z: -25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 50, y: 0, z: -75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 50, y: 0, z: 75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 25, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      chestEntities: []
+    xpAmount: 150
+    requiredUpg: 9
+    enemiesLevel: 2
+    hasCharacterSuggestion: 1
+    healSpawnPercent: 0.5
+    dropData:
+    - dropType: 0
+      currencyType: 0
+      cardType: 0
+      amount: 140
+    specialBehaviours: []
+  - type: 1
+    rooms:
+    - spawnPoint: {x: 0, y: 0, z: -75}
+      exitPoint: {x: 0, y: 0, z: 100}
+      enemyEntities:
+      - EnemyType: 101
+        Position: {x: 0, y: 0, z: 70}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        IsElite: 0
+        PathPoints:
+        - {x: 18.9, y: 0, z: 36.3}
+        - {x: -45, y: 0, z: 3}
+        - {x: 2.5, y: 0, z: -14.5}
+        - {x: 42.5, y: 0, z: 3}
+        - {x: -47.5, y: 0, z: 48}
+        - {x: -14.3, y: 0, z: 78.7}
+      obstacleEntities:
+      - ObstaclesType: 2
+        Position: {x: 0, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 35, y: 0, z: -15}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -32.5, y: 0, z: -15}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -57.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -47.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -37.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 55, y: 0, z: 22.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 45, y: 0, z: 22.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 35, y: 0, z: 22.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 20, y: 0, z: -42.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -15, y: 0, z: -42.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -25, y: 0, z: 57.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 25, y: 0, z: 57.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: -45, y: 0, z: 80}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 45, y: 0, z: 77.5}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - ObstaclesType: 2
+        Position: {x: 0, y: 0, z: 35}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      environmentEntities:
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: -37.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 0
+        Position: {x: 12.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.7071079}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 6
+        Position: {x: -62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.00000028312203, z: 0, w: 1}
+      - EnvironmentType: 6
+        Position: {x: 62.5, y: 0, z: -100}
+        Rotation: {x: 0, y: 0.7071099, z: 0, w: -0.7071037}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 4
+        Position: {x: -62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 2
+        Position: {x: -62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 3
+        Position: {x: -62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0.70710576, z: 0, w: 0.70710784}
+      - EnvironmentType: 5
+        Position: {x: 62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 3
+        Position: {x: 62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: 62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: -0.7071058, z: 0, w: 0.7071078}
+      - EnvironmentType: 2
+        Position: {x: -37.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 2
+        Position: {x: 12.5, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 8
+        Position: {x: -37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 8
+        Position: {x: 37.5, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 9
+        Position: {x: -56.25, y: 0, z: 100}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 9
+        Position: {x: 56.25, y: 0, z: 100}
+        Rotation: {x: 0, y: -1, z: 0, w: 0}
+      - EnvironmentType: 8
+        Position: {x: 50, y: 0, z: -100}
+        Rotation: {x: 0, y: -0.000000014901161, z: 0, w: 1}
+      - EnvironmentType: 7
+        Position: {x: 0, y: 0, z: 100}
+        Rotation: {x: 0, y: 1, z: 0, w: 0.0000029504295}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: -25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 25}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      - EnvironmentType: 1
+        Position: {x: 62.5, y: 0, z: 75}
+        Rotation: {x: 0, y: 0, z: 0, w: 1}
+      chestEntities: []
+    xpAmount: 200
+    requiredUpg: 10
+    enemiesLevel: 2
+    hasCharacterSuggestion: 0
+    healSpawnPercent: 0.5
+    dropData:
+    - dropType: 0
+      currencyType: 0
+      cardType: 0
+      amount: 220
+    - dropType: 1
+      currencyType: 0
+      cardType: 1
+      amount: 3
+    - dropType: 1
+      currencyType: 0
+      cardType: 2
+      amount: 2
+    specialBehaviours: []

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70ba82a9d027d964cb394f1b1b95b318, type: 3}
+  m_Name: Experience Database
+  m_EditorClassIdentifier: 
+  experienceData:
+  - experienceRequired: 0
+  - experienceRequired: 500
+  - experienceRequired: 1430
+  - experienceRequired: 2400
+  - experienceRequired: 3700
+  - experienceRequired: 5000
+  - experienceRequired: 7000
+  - experienceRequired: 9000
+  - experienceRequired: 11000
+  - experienceRequired: 13000
+  - experienceRequired: 15000
+  - experienceRequired: 17000
+  - experienceRequired: 19000
+  - experienceRequired: 21000
+  - experienceRequired: 23000
+  - experienceRequired: 25000

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48476c393f85c2749a9526706a89e1e4, type: 3}
+  m_Name: Weapon Database
+  m_EditorClassIdentifier: 
+  weapons:
+  - name: MINIGUN
+    type: 0
+    upgradeType: 0
+    rarity: 0
+    icon: {fileID: 21300000, guid: 96f48177d01e5c0419ff1e59b578c5ee, type: 3}
+  - name: SHOTGUN
+    type: 3
+    upgradeType: 1
+    rarity: 0
+    icon: {fileID: 21300000, guid: 3a51fb644e3b61f44aeefd3157e165e0, type: 3}
+  - name: LAVA GUN
+    type: 1
+    upgradeType: 3
+    rarity: 1
+    icon: {fileID: 21300000, guid: b5f1a70cce958d14c8be56bde5c89019, type: 3}
+  - name: TESLA GUN
+    type: 2
+    upgradeType: 2
+    rarity: 4
+    icon: {fileID: 21300000, guid: 696461dadb27aa249a1c814e7fca4f57, type: 3}
+  raritySettings:
+  - rarity: 0
+    name: COMMON
+    mainColor: {r: 0.854902, g: 0.854902, b: 0.854902, a: 1}
+    textColor: {r: 0.31764707, g: 0.31764707, b: 0.31764707, a: 1}
+  - rarity: 1
+    name: UNCOMMON
+    mainColor: {r: 0.5058824, g: 0.75294125, b: 0.32156864, a: 1}
+    textColor: {r: 0.3197009, g: 0.5283019, b: 0.16233535, a: 1}
+  - rarity: 2
+    name: RARE
+    mainColor: {r: 0.5411765, g: 0.81568635, b: 0.97647065, a: 1}
+    textColor: {r: 0.16470589, g: 0.454902, b: 0.62352943, a: 1}
+  - rarity: 3
+    name: EPIC
+    mainColor: {r: 0.73333335, g: 0.5411765, b: 0.97647065, a: 1}
+    textColor: {r: 0.41082373, g: 0.23596345, b: 0.6320754, a: 1}
+  - rarity: 4
+    name: LEGENDARY
+    mainColor: {r: 1, g: 0.78823537, b: 0.21568629, a: 1}
+    textColor: {r: 0.8470589, g: 0.61960787, b: 0, a: 1}

@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: 0c873d2ecf80311409f6d1cf7fb3415a
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 8201533862367631293
+    second: Boss_LShoot
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Boss_LShoot
+      takeName: Boss_LShoot
+      internalID: 0
+      firstFrame: 317
+      lastFrame: 327
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.56791925
+        functionName: OnHitCallback
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 317
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 14
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: BossBandit(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Minigun
+      parentName: BossBandit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Minigun_Barrel
+      parentName: Minigun
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Bandit
+      parentName: BossBandit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Root
+      parentName: BossBandit(Clone)
+      position: {x: 0, y: 0.20672452, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Hips
+      parentName: Boss_Root
+      position: {x: -0.0000052852856, y: 6.02, z: -0.039320026}
+      rotation: {x: 4.743334e-13, y: -0.00000029113596, z: 0.0000016292502, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Mag_2
+      parentName: Boss_Hips
+      position: {x: -1.5079739, y: 0.28005606, z: -2.1935246}
+      rotation: {x: 4.743332e-13, y: 0.00000029113596, z: -0.0000016292502, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Mag_1
+      parentName: Boss_Hips
+      position: {x: -1.2510197, y: 1.2325648, z: -2.0199454}
+      rotation: {x: 4.743332e-13, y: 0.00000029113596, z: -0.0000016292502, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Leg_1_R
+      parentName: Boss_Hips
+      position: {x: 1.406439, y: 0.11382948, z: -0.048063666}
+      rotation: {x: 0.72844535, y: -0.6776015, z: 0.07411982, w: -0.06877442}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Leg_2_R
+      parentName: Boss_Leg_1_R
+      position: {x: 2.888209, y: 0.00000067265705, z: -0.00000023460234}
+      rotation: {x: -0.5756564, y: -0.053113468, z: -0.016224472, w: 0.8158035}
+      scale: {x: 1, y: 1.0000002, z: 1.0000004}
+    - name: Boss_LegArmor_R
+      parentName: Boss_Leg_2_R
+      position: {x: -0.12685318, y: 0.7554725, z: -0.53421193}
+      rotation: {x: 0.3270562, y: 0.3658622, z: -0.58069414, w: 0.64959484}
+      scale: {x: 0.9999997, y: 1.0000005, z: 1.0000002}
+    - name: Boss_Leg_3_R
+      parentName: Boss_Leg_2_R
+      position: {x: 2.1900482, y: 0.000000012148915, z: 0.00000060364755}
+      rotation: {x: 0.8720197, y: 0.32146913, z: -0.08820367, w: 0.35841233}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Boss_Leg_4_R
+      parentName: Boss_Leg_3_R
+      position: {x: 1.3266501, y: 0.0000010104085, z: -0.000003846186}
+      rotation: {x: 0.023919392, y: 0.043989107, z: -0.45966458, w: 0.88668}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: Boss_Leg_5_R
+      parentName: Boss_Leg_4_R
+      position: {x: 0.9631371, y: 0.00000044669517, z: 0.0000046288005}
+      rotation: {x: 0.00000001816079, y: -1.7826096e-10, z: 4.656613e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Leg_1_L
+      parentName: Boss_Hips
+      position: {x: -1.3317751, y: 0.113839306, z: -0.048062027}
+      rotation: {x: 0.06920111, y: 0.07455638, z: 0.6775727, w: 0.7283872}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Boss_Leg_2_L
+      parentName: Boss_Leg_1_L
+      position: {x: -2.8934731, y: 0.0728875, z: -0.015341814}
+      rotation: {x: -0.5756565, y: -0.053113483, z: -0.016224444, w: 0.8158036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_LegArmor_L
+      parentName: Boss_Leg_2_L
+      position: {x: 0.12685691, y: -0.75547296, z: 0.53421}
+      rotation: {x: 0.3270562, y: 0.3658622, z: -0.58069414, w: 0.64959484}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: Boss_Leg_3_L
+      parentName: Boss_Leg_2_L
+      position: {x: -2.1900513, y: -1.2434498e-15, z: -2.4868995e-15}
+      rotation: {x: 0.8720197, y: 0.3214691, z: -0.08820373, w: 0.35841238}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Boss_Leg_4_L
+      parentName: Boss_Leg_3_L
+      position: {x: -1.3266509, y: -7.460699e-16, z: -2.4868999e-16}
+      rotation: {x: 0.023919418, y: 0.043989245, z: -0.45966458, w: 0.88667995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Leg_5_L
+      parentName: Boss_Leg_4_L
+      position: {x: -0.96314234, y: -3.4972022e-17, z: -2.4868999e-16}
+      rotation: {x: -0, y: -0, z: -4.656613e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Spine
+      parentName: Boss_Hips
+      position: {x: 2.0870891e-20, y: 2.0590549, z: -0.029992541}
+      rotation: {x: -0.015963439, y: 0.00000031710732, z: -0.0000016243952, w: 0.9998726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Spine1
+      parentName: Boss_Spine
+      position: {x: 1.1429934e-12, y: 1.0961219, z: -2.4868999e-16}
+      rotation: {x: -0, y: -0, z: 2.0461078e-30, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Spine2
+      parentName: Boss_Spine1
+      position: {x: 1.3062785e-12, y: 1.252711, z: 2.1760372e-16}
+      rotation: {x: -0, y: -0, z: 2.0461078e-30, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Clavical_R
+      parentName: Boss_Spine2
+      position: {x: 0.72239566, y: 1.2639652, z: 0.18366815}
+      rotation: {x: 0.9892325, y: -0.12462579, z: -0.076469116, w: -0.006319523}
+      scale: {x: 1, y: 1.000001, z: 1.000001}
+    - name: Boss_ArmArmor_1
+      parentName: Boss_Clavical_R
+      position: {x: 1.085911, y: -0.6029986, z: 0.16291368}
+      rotation: {x: -0.9892074, y: 0.12583064, z: 0.07446992, w: 0.009472835}
+      scale: {x: 1, y: 0.99999934, z: 0.99999934}
+    - name: Boss_ArmArmor_2
+      parentName: Boss_Clavical_R
+      position: {x: 1.6745428, y: -0.75521356, z: 0.0708494}
+      rotation: {x: -0.9892074, y: 0.12583064, z: 0.07446992, w: 0.009472835}
+      scale: {x: 1, y: 0.99999934, z: 0.99999934}
+    - name: Boss_Arm_1_R
+      parentName: Boss_Clavical_R
+      position: {x: 1.4914379, y: 0.0000037865361, z: 0.0000005192223}
+      rotation: {x: 0.0054099415, y: 0.03628752, z: -0.111237206, w: 0.99311644}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1}
+    - name: Boss_Arm_2_R
+      parentName: Boss_Arm_1_R
+      position: {x: 3.2940567, y: 0.0000019812912, z: 0.00000014575721}
+      rotation: {x: 0.002078414, y: 0.06026924, z: 0.000005953014, w: 0.99818003}
+      scale: {x: 1, y: 1.0000005, z: 1.0000002}
+    - name: Boss_ArmArmor_3
+      parentName: Boss_Arm_2_R
+      position: {x: -0.061501462, y: 0.3131733, z: 0.9697992}
+      rotation: {x: -0.9997207, y: 0.017235788, z: -0.016167404, w: -0.00027873565}
+      scale: {x: 1, y: 0.9999991, z: 0.9999992}
+    - name: Boss_Arm_3_R
+      parentName: Boss_Arm_2_R
+      position: {x: 2.3157928, y: 0.0000004161461, z: -0.00000087529025}
+      rotation: {x: -0.00012059638, y: -0.0032137022, z: 0.0030303057, w: 0.9999903}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1}
+    - name: Boss_Fin_1_R
+      parentName: Boss_Arm_3_R
+      position: {x: 0.7353175, y: 0.26947498, z: -0.6744827}
+      rotation: {x: 0.043972515, y: 0.043990627, z: -0.005990457, w: 0.9980458}
+      scale: {x: 0.9999996, y: 1.0000001, z: 1.0000001}
+    - name: Boss_Fin_2_R
+      parentName: Boss_Fin_1_R
+      position: {x: 0.42950538, y: -0.0000060586685, z: -0.00000045019655}
+      rotation: {x: 0.000005301088, y: 0.000029957155, z: 0.00000033527613, w: 1}
+      scale: {x: 1, y: 0.9999997, z: 0.9999998}
+    - name: Boss_Fin_3_R
+      parentName: Boss_Fin_2_R
+      position: {x: 0.22899261, y: 0.0000064436867, z: 0.0000065626687}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Hand_1_R
+      parentName: Boss_Arm_3_R
+      position: {x: 1.2381505, y: -0.0000029273665, z: 0.0000005963473}
+      rotation: {x: -0.00024720444, y: -0.004054591, z: 0.020353628, w: 0.99978465}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: Boss_Hand_2_R
+      parentName: Boss_Hand_1_R
+      position: {x: 1.2123624, y: -0.0000026930315, z: -0.0000006057358}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Clavical_L
+      parentName: Boss_Spine2
+      position: {x: -0.72239584, y: 1.2639642, z: 0.18366806}
+      rotation: {x: 0.0063195247, y: -0.07646913, z: 0.12462579, w: 0.9892325}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Boss_Arm_1_L
+      parentName: Boss_Clavical_L
+      position: {x: -1.491443, y: -5.9685592e-15, z: 0}
+      rotation: {x: 0.0054078507, y: 0.036287475, z: -0.11123693, w: 0.9931165}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Boss_Arm_2_L
+      parentName: Boss_Arm_1_L
+      position: {x: -3.2940462, y: 1.9895199e-15, z: 5.284662e-16}
+      rotation: {x: 0.0020784142, y: 0.060269244, z: 0.000005957134, w: 0.99818003}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999999}
+    - name: Boss_Arm_3_L
+      parentName: Boss_Arm_2_L
+      position: {x: -2.3157966, y: -9.947598e-15, z: 1.3677947e-15}
+      rotation: {x: -0.00012059632, y: -0.003213703, z: 0.003030299, w: 0.9999903}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Boss_Fin_1_L
+      parentName: Boss_Arm_3_L
+      position: {x: -0.73532283, y: -0.26947585, z: 0.6744825}
+      rotation: {x: 0.043976214, y: 0.04399161, z: -0.0059977174, w: 0.9980455}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: Boss_Fin_2_L
+      parentName: Boss_Fin_1_L
+      position: {x: -0.42950612, y: 1.9895199e-15, z: 2.9842796e-15}
+      rotation: {x: 0.0000052750106, y: 0.000029981133, z: 0.00000036880368, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Boss_Fin_3_L
+      parentName: Boss_Fin_2_L
+      position: {x: -0.22898768, y: -1.9895199e-15, z: -7.8586036e-14}
+      rotation: {x: -0, y: -0, z: -0.0000000018626449, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Hand_1_L
+      parentName: Boss_Arm_3_L
+      position: {x: -1.2381517, y: -9.947598e-15, z: -7.833734e-15}
+      rotation: {x: -0.00024720392, y: -0.0040545855, z: 0.020353623, w: 0.99978465}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Boss_Hand_2_L
+      parentName: Boss_Hand_1_L
+      position: {x: -1.2123635, y: 3.9790398e-15, z: -6.217249e-16}
+      rotation: {x: -0, y: -0, z: 1.0413714e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Neck
+      parentName: Boss_Spine2
+      position: {x: 5.6920616e-21, y: 1.4092995, z: 0.0000000015494864}
+      rotation: {x: 0.015963444, y: -4.0674315e-24, z: 2.5476423e-22, w: 0.9998726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Head
+      parentName: Boss_Neck
+      position: {x: 1.9111843e-12, y: 0.6525081, z: 0.12517977}
+      rotation: {x: 0.17278868, y: 2.0730475e-21, z: -1.8821194e-20, w: 0.98495895}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_HeadTop_End
+      parentName: Boss_Head
+      position: {x: 1.897354e-21, y: 2.567143, z: 0.20508228}
+      rotation: {x: -0, y: -0, z: 3.7865319e-28, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Minigun_1
+      parentName: Boss_Root
+      position: {x: 0.000007910338, y: 2.5640032e-11, z: -4.2587295}
+      rotation: {x: -0, y: -0.0000005822719, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Minigun_2
+      parentName: Minigun_1
+      position: {x: 0.00000032607232, y: 1.8915253, z: 3.5385602}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Barrel
+      parentName: Minigun_1
+      position: {x: -0.0000024790238, y: 0.017888268, z: 4.663899}
+      rotation: {x: -0, y: 0.0000005822719, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 14
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: a44df3b03dbc3164fb73d33a40e090e7,
+    type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
